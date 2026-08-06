@@ -1,0 +1,227 @@
+<InterfaceView version="1.3" asn1file="CG-Test-2.acn" UiFile="interfaceview.ui.xml" modifierHash="383508e">
+<Function id="{a2810576-dc0b-4105-9f69-c983be709b01}" name="UartOtherEnd" is_type="NO" language="SDL" default_implementation="default" fixed_system_element="NO" required_system_element="NO" instances_max="1" instances_min="1" startup_priority="1">
+    <Property name="TASTE_IV_Properties::Default_Codegen" value="C"/>
+<Provided_Interface id="{2f668f2a-630c-4a29-8d67-ca8b7a7f713e}" name="samrh71tx" kind="Sporadic" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" queue_size="1" priority="1" wcet="0" miat="0" stack_size="1024">
+    <Input_Parameter name="iByteOut" type="T-UInt8" encoding="ACN"/>
+</Provided_Interface>
+
+<Required_Interface id="{5844bac7-0f51-4e82-b772-10baa1417284}" name="samrh71rx" kind="Sporadic" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" queue_size="1" priority="1" wcet="0" miat="0" stack_size="1024">
+    <Input_Parameter name="iByteIn" type="T-UInt8" encoding="ACN"/>
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="false"/>
+</Required_Interface>
+
+    <Implementations>
+        <Implementation name="default" language="SDL"/>
+    </Implementations>
+</Function>
+
+<Function id="{08f276e1-899d-4a1c-9550-315c365cd0e0}" name="TestCompressUncompress" is_type="NO" language="C" default_implementation="default" fixed_system_element="NO" required_system_element="NO" instances_max="1" instances_min="1" startup_priority="1">
+    <Property name="TASTE_IV_Properties::Default_Codegen" value="Ada"/>
+<Provided_Interface id="{d8c75ade-b8df-4f60-9203-2ba984f4c4fd}" name="RunOnce" kind="Cyclic" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" priority="1" wcet="0" period="5000" dispatch_offset="0" stack_size="1024">
+</Provided_Interface>
+
+<Provided_Interface id="{121b632b-20b7-4245-9031-d9684dcd6e32}" name="samrh71rx" kind="Sporadic" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" queue_size="1" priority="1" wcet="0" miat="0" stack_size="1024">
+    <Input_Parameter name="iByteIn" type="T-UInt8" encoding="ACN"/>
+</Provided_Interface>
+
+<Required_Interface id="{01c972df-78ca-4b30-9cce-0679c87647e0}" name="Comp_StartCompression" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="false"/>
+</Required_Interface>
+
+<Required_Interface id="{05edc7ae-7e04-4f6d-853c-2359f5dbbe70}" name="Comp_ClearBuffer" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="false"/>
+</Required_Interface>
+
+<Required_Interface id="{69b3eef3-b5d9-4abb-8ddb-3273acffa99b}" name="Comp_WriteBuffer" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Input_Parameter name="dataBuffer" type="CompressorDataBuffer" encoding="NATIVE"/>
+    <Input_Parameter name="dataLength" type="T-UInt32" encoding="NATIVE"/>
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="false"/>
+</Required_Interface>
+
+<Required_Interface id="{60565fe5-4b4e-4188-a214-c1c16ae09068}" name="Comp_Status" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Output_Parameter name="currentStatus" type="CompressorState" encoding="NATIVE"/>
+    <Output_Parameter name="compressedDataLength" type="T-UInt32" encoding="NATIVE"/>
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="false"/>
+</Required_Interface>
+
+<Required_Interface id="{da46a836-263e-4035-876b-3ef5c4a88ef8}" name="Comp_ReadData" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Output_Parameter name="dataOut" type="CompressorDataBuffer" encoding="NATIVE"/>
+    <Input_Parameter name="byteOffset" type="T-UInt32" encoding="NATIVE"/>
+    <Input_Parameter name="bytesToRead" type="T-UInt32" encoding="NATIVE"/>
+    <Output_Parameter name="bytesWritten" type="T-UInt32" encoding="NATIVE"/>
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="false"/>
+</Required_Interface>
+
+<Required_Interface id="{ffe4b9df-8d64-4bed-b967-c35038734db7}" name="Uncomp_StartUncompression" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="false"/>
+</Required_Interface>
+
+<Required_Interface id="{2c3b0c12-5f21-4d9d-90e2-8f49cdf36789}" name="Uncomp_ClearBuffer" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="false"/>
+</Required_Interface>
+
+<Required_Interface id="{d33778a9-b3af-4088-95b0-24d895159d58}" name="Uncomp_WriteBuffer" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Input_Parameter name="dataBuffer" type="CompressorDataBuffer" encoding="NATIVE"/>
+    <Input_Parameter name="dataLength" type="T-UInt32" encoding="NATIVE"/>
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="false"/>
+</Required_Interface>
+
+<Required_Interface id="{287511a8-b540-4e8d-b132-a1f600e6cb48}" name="Uncomp_Status" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Output_Parameter name="currentStatus" type="CompressorState" encoding="NATIVE"/>
+    <Output_Parameter name="decompressedDataLength" type="T-UInt32" encoding="NATIVE"/>
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="false"/>
+</Required_Interface>
+
+<Required_Interface id="{5dc7fb2d-219f-414f-a5cc-281a7641f8f0}" name="Uncomp_ReadData" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Output_Parameter name="dataOut" type="CompressorDataBuffer" encoding="NATIVE"/>
+    <Input_Parameter name="byteOffset" type="T-UInt32" encoding="NATIVE"/>
+    <Input_Parameter name="bytesToRead" type="T-UInt32" encoding="NATIVE"/>
+    <Output_Parameter name="bytesWritten" type="T-UInt32" encoding="NATIVE"/>
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="false"/>
+</Required_Interface>
+
+<Required_Interface id="{d69733d6-0c02-4447-bce1-1cf88929285b}" name="samrh71tx" kind="Sporadic" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" queue_size="1" priority="1" wcet="0" miat="0" stack_size="1024">
+    <Input_Parameter name="iByteOut" type="T-UInt8" encoding="ACN"/>
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="true"/>
+</Required_Interface>
+
+    <Implementations>
+        <Implementation name="default" language="C"/>
+    </Implementations>
+</Function>
+
+<Function id="{f262f8b4-1f86-4a0d-a6ab-bf1dbe455482}" name="DataUncompressor" is_type="NO" language="C" default_implementation="default" fixed_system_element="NO" required_system_element="NO" instances_max="1" instances_min="1" startup_priority="1">
+    <Property name="TASTE_IV_Properties::Default_Codegen" value="Ada"/>
+<Provided_Interface id="{37035b2d-3966-4464-a1f5-ac030634b8a0}" name="StartUncompression" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+</Provided_Interface>
+
+<Provided_Interface id="{68f1c67d-91ed-4e0e-a178-45946303383f}" name="WriteBuffer" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Input_Parameter name="dataBuffer" type="CompressorDataBuffer" encoding="NATIVE"/>
+    <Input_Parameter name="dataLength" type="T-UInt32" encoding="NATIVE"/>
+</Provided_Interface>
+
+<Provided_Interface id="{4a3e3750-eac2-4a16-8288-8fbb54ea7bce}" name="ClearBuffer" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+</Provided_Interface>
+
+<Provided_Interface id="{a24bda5d-910c-4d2f-abdf-96ddc0b1a1f0}" name="Status" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Output_Parameter name="currentStatus" type="CompressorState" encoding="NATIVE"/>
+    <Output_Parameter name="decompressedDataLength" type="T-UInt32" encoding="NATIVE"/>
+</Provided_Interface>
+
+<Provided_Interface id="{0f83acc4-0608-4057-87e6-541727ee1fa6}" name="ReadData" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Output_Parameter name="dataOut" type="CompressorDataBuffer" encoding="NATIVE"/>
+    <Input_Parameter name="byteOffset" type="T-UInt32" encoding="NATIVE"/>
+    <Input_Parameter name="bytesToRead" type="T-UInt32" encoding="NATIVE"/>
+    <Output_Parameter name="bytesWritten" type="T-UInt32" encoding="NATIVE"/>
+</Provided_Interface>
+
+    <Implementations>
+        <Implementation name="default" language="C"/>
+    </Implementations>
+</Function>
+
+<Function id="{367c55d1-1798-41c1-95da-3618bbf448d2}" name="DataCompressor" is_type="NO" language="C" default_implementation="default" fixed_system_element="NO" required_system_element="NO" instances_max="1" instances_min="1" startup_priority="1">
+    <Property name="TASTE_IV_Properties::Default_Codegen" value="Ada"/>
+<Provided_Interface id="{a43586c8-83c5-446b-8fe8-f10834d931e6}" name="StartCompression" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+</Provided_Interface>
+
+<Provided_Interface id="{de8326de-44ff-4ec7-a8cd-b143d845b879}" name="WriteBuffer" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Input_Parameter name="dataBuffer" type="CompressorDataBuffer" encoding="NATIVE"/>
+    <Input_Parameter name="dataLength" type="T-UInt32" encoding="NATIVE"/>
+</Provided_Interface>
+
+<Provided_Interface id="{a824f421-ee7c-4435-bb71-b8f9278e6f00}" name="ClearBuffer" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+</Provided_Interface>
+
+<Provided_Interface id="{bd085094-226d-4ccb-8939-f0cdcb211ffe}" name="Status" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Output_Parameter name="currentStatus" type="CompressorState" encoding="NATIVE"/>
+    <Output_Parameter name="compressedDataLength" type="T-UInt32" encoding="NATIVE"/>
+</Provided_Interface>
+
+<Provided_Interface id="{7db4ff68-99cb-4f39-ba5d-c3e97b35fd10}" name="ReadData" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Output_Parameter name="dataOut" type="CompressorDataBuffer" encoding="NATIVE"/>
+    <Input_Parameter name="byteOffset" type="T-UInt32" encoding="NATIVE"/>
+    <Input_Parameter name="bytesToRead" type="T-UInt32" encoding="NATIVE"/>
+    <Output_Parameter name="bytesWritten" type="T-UInt32" encoding="NATIVE"/>
+</Provided_Interface>
+
+    <Implementations>
+        <Implementation name="default" language="C"/>
+    </Implementations>
+</Function>
+
+<Connection id="{536ee483-378b-4e39-97cf-da05bfa0e9e0}" required_system_element="NO">
+    <Source iface_id="{05edc7ae-7e04-4f6d-853c-2359f5dbbe70}" func_name="TestCompressUncompress" ri_name="Comp_ClearBuffer" />
+    <Target iface_id="{a824f421-ee7c-4435-bb71-b8f9278e6f00}" func_name="DataCompressor" pi_name="ClearBuffer" />
+</Connection>
+
+<Connection id="{077b3f23-21c3-4480-8165-1d4be74316d0}" required_system_element="NO">
+    <Source iface_id="{01c972df-78ca-4b30-9cce-0679c87647e0}" func_name="TestCompressUncompress" ri_name="Comp_StartCompression" />
+    <Target iface_id="{a43586c8-83c5-446b-8fe8-f10834d931e6}" func_name="DataCompressor" pi_name="StartCompression" />
+</Connection>
+
+<Connection id="{ae238942-edaf-4b9e-b312-d1638fe987ca}" required_system_element="NO">
+    <Source iface_id="{5dc7fb2d-219f-414f-a5cc-281a7641f8f0}" func_name="TestCompressUncompress" ri_name="Uncomp_ReadData" />
+    <Target iface_id="{0f83acc4-0608-4057-87e6-541727ee1fa6}" func_name="DataUncompressor" pi_name="ReadData" />
+</Connection>
+
+<Connection id="{660b62de-6c9b-4dd3-98ab-85e7ce0da3e2}" required_system_element="NO">
+    <Source iface_id="{60565fe5-4b4e-4188-a214-c1c16ae09068}" func_name="TestCompressUncompress" ri_name="Comp_Status" />
+    <Target iface_id="{bd085094-226d-4ccb-8939-f0cdcb211ffe}" func_name="DataCompressor" pi_name="Status" />
+</Connection>
+
+<Connection id="{d7d18b6b-2e3a-49da-9536-fbb8a26aaea3}" required_system_element="NO">
+    <Source iface_id="{2c3b0c12-5f21-4d9d-90e2-8f49cdf36789}" func_name="TestCompressUncompress" ri_name="Uncomp_ClearBuffer" />
+    <Target iface_id="{4a3e3750-eac2-4a16-8288-8fbb54ea7bce}" func_name="DataUncompressor" pi_name="ClearBuffer" />
+</Connection>
+
+<Connection id="{9d134cb6-f25f-4996-9d59-cd2b5f5c899f}" name="UartOtherEnd_samrh71rx____TestCompressUncompress_samrh71rx" required_system_element="NO">
+    <Source iface_id="{5844bac7-0f51-4e82-b772-10baa1417284}" func_name="UartOtherEnd" ri_name="samrh71rx" />
+    <Target iface_id="{121b632b-20b7-4245-9031-d9684dcd6e32}" func_name="TestCompressUncompress" pi_name="samrh71rx" />
+</Connection>
+
+<Connection id="{868904bd-2314-434b-8ffc-302e7f075bb1}" required_system_element="NO">
+    <Source iface_id="{69b3eef3-b5d9-4abb-8ddb-3273acffa99b}" func_name="TestCompressUncompress" ri_name="Comp_WriteBuffer" />
+    <Target iface_id="{de8326de-44ff-4ec7-a8cd-b143d845b879}" func_name="DataCompressor" pi_name="WriteBuffer" />
+</Connection>
+
+<Connection id="{6a49c7f8-ae44-4c2b-b5d6-893ea510f1bd}" required_system_element="NO">
+    <Source iface_id="{da46a836-263e-4035-876b-3ef5c4a88ef8}" func_name="TestCompressUncompress" ri_name="Comp_ReadData" />
+    <Target iface_id="{7db4ff68-99cb-4f39-ba5d-c3e97b35fd10}" func_name="DataCompressor" pi_name="ReadData" />
+</Connection>
+
+<Connection id="{fb280cda-6838-4cd5-850a-45b774d1d9d2}" name="TestCompressUncompress_samrh71tx____UartOtherEnd_samrh71tx" required_system_element="NO">
+    <Source iface_id="{d69733d6-0c02-4447-bce1-1cf88929285b}" func_name="TestCompressUncompress" ri_name="samrh71tx" />
+    <Target iface_id="{2f668f2a-630c-4a29-8d67-ca8b7a7f713e}" func_name="UartOtherEnd" pi_name="samrh71tx" />
+</Connection>
+
+<Connection id="{d1f99f37-a02c-4255-a356-31a0dd05ed3f}" required_system_element="NO">
+    <Source iface_id="{ffe4b9df-8d64-4bed-b967-c35038734db7}" func_name="TestCompressUncompress" ri_name="Uncomp_StartUncompression" />
+    <Target iface_id="{37035b2d-3966-4464-a1f5-ac030634b8a0}" func_name="DataUncompressor" pi_name="StartUncompression" />
+</Connection>
+
+<Connection id="{469b68ae-8a32-4fc3-901e-5a827ce46e01}" required_system_element="NO">
+    <Source iface_id="{287511a8-b540-4e8d-b132-a1f600e6cb48}" func_name="TestCompressUncompress" ri_name="Uncomp_Status" />
+    <Target iface_id="{a24bda5d-910c-4d2f-abdf-96ddc0b1a1f0}" func_name="DataUncompressor" pi_name="Status" />
+</Connection>
+
+<Connection id="{3fb457e6-10a4-4a2c-a19c-df187ca1a143}" required_system_element="NO">
+    <Source iface_id="{d33778a9-b3af-4088-95b0-24d895159d58}" func_name="TestCompressUncompress" ri_name="Uncomp_WriteBuffer" />
+    <Target iface_id="{68f1c67d-91ed-4e0e-a178-45946303383f}" func_name="DataUncompressor" pi_name="WriteBuffer" />
+</Connection>
+
+<Layer name="default" is_visible="true"/>
+
+</InterfaceView>

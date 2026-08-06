@@ -1,0 +1,138 @@
+-- =================
+-- REQUIREMENTS.SLIM
+-- =================
+-- ------
+-- SYNTAX
+-- ------
+-- system implementation <SLIM FUNCTION NAME>.others
+-- properties
+--   Requirements => (
+--     [
+--       PropertyId => "<NAME OF PROPERTY>";
+--       Description => "<REQUIREMENT DESCRIPTION>";
+--     ],
+--     ...
+--   );
+-- end <SLIM FUNCTION NAME>.others;
+-- -------
+-- EXAMPLE
+-- -------
+-- system implementation SystemBlock.others
+-- properties
+--   Requirements => (
+--     [
+--       PropertyId => "At least one sensor not working";
+--       Description => "[SystemBlock.others] At least one sensor not working";
+--     ],
+--     [
+--       PropertyId => "Both sensors not working";
+--       Description => "[SystemBlock.others] Both sensors not working";
+--     ],
+--     [
+--       PropertyId => "Generator 1 LOW";
+--       Description => "[SystemBlock.others] Generator 1 LOW";
+--     ]
+--   );
+-- end SystemBlock.others;
+-- ----------------------
+-- DUMP OF INTERFACE VIEW
+-- ----------------------
+-- Function (C): DataCompressor
+---- PI (Protected): ClearBuffer
+
+---- PI (Protected): ReadData
+------ PARAM_OUT (CompressorDataBuffer): ReadData.dataOut
+------ PARAM_IN (T-UInt32): ReadData.byteOffset
+------ PARAM_IN (T-UInt32): ReadData.bytesToRead
+------ PARAM_OUT (T-UInt32): ReadData.bytesWritten
+
+---- PI (Protected): StartCompression
+
+---- PI (Protected): Status
+------ PARAM_OUT (CompressorState): Status.currentStatus
+------ PARAM_OUT (T-UInt32): Status.compressedDataLength
+
+---- PI (Protected): WriteBuffer
+------ PARAM_IN (CompressorDataBuffer): WriteBuffer.dataBuffer
+------ PARAM_IN (T-UInt32): WriteBuffer.dataLength
+
+
+
+-- Function (C): DataUncompressor
+---- PI (Protected): ClearBuffer
+
+---- PI (Protected): ReadData
+------ PARAM_OUT (CompressorDataBuffer): ReadData.dataOut
+------ PARAM_IN (T-UInt32): ReadData.byteOffset
+------ PARAM_IN (T-UInt32): ReadData.bytesToRead
+------ PARAM_OUT (T-UInt32): ReadData.bytesWritten
+
+---- PI (Protected): StartUncompression
+
+---- PI (Protected): Status
+------ PARAM_OUT (CompressorState): Status.currentStatus
+------ PARAM_OUT (T-UInt32): Status.decompressedDataLength
+
+---- PI (Protected): WriteBuffer
+------ PARAM_IN (CompressorDataBuffer): WriteBuffer.dataBuffer
+------ PARAM_IN (T-UInt32): WriteBuffer.dataLength
+
+
+
+-- Function (C): TestCompressUncompress
+
+---- PI (Sporadic): samrh71rx
+------ PARAM_IN (T-UInt8): samrh71rx.iByteIn
+
+
+---- RI (Protected): Comp_ClearBuffer
+
+---- RI (Protected): Comp_ReadData
+------ PARAM_OUT (CompressorDataBuffer): Comp_ReadData.dataOut
+------ PARAM_IN (T-UInt32): Comp_ReadData.byteOffset
+------ PARAM_IN (T-UInt32): Comp_ReadData.bytesToRead
+------ PARAM_OUT (T-UInt32): Comp_ReadData.bytesWritten
+
+---- RI (Protected): Comp_StartCompression
+
+---- RI (Protected): Comp_Status
+------ PARAM_OUT (CompressorState): Comp_Status.currentStatus
+------ PARAM_OUT (T-UInt32): Comp_Status.compressedDataLength
+
+---- RI (Protected): Comp_WriteBuffer
+------ PARAM_IN (CompressorDataBuffer): Comp_WriteBuffer.dataBuffer
+------ PARAM_IN (T-UInt32): Comp_WriteBuffer.dataLength
+
+---- RI (Protected): Uncomp_ClearBuffer
+
+---- RI (Protected): Uncomp_ReadData
+------ PARAM_OUT (CompressorDataBuffer): Uncomp_ReadData.dataOut
+------ PARAM_IN (T-UInt32): Uncomp_ReadData.byteOffset
+------ PARAM_IN (T-UInt32): Uncomp_ReadData.bytesToRead
+------ PARAM_OUT (T-UInt32): Uncomp_ReadData.bytesWritten
+
+---- RI (Protected): Uncomp_StartUncompression
+
+---- RI (Protected): Uncomp_Status
+------ PARAM_OUT (CompressorState): Uncomp_Status.currentStatus
+------ PARAM_OUT (T-UInt32): Uncomp_Status.decompressedDataLength
+
+---- RI (Protected): Uncomp_WriteBuffer
+------ PARAM_IN (CompressorDataBuffer): Uncomp_WriteBuffer.dataBuffer
+------ PARAM_IN (T-UInt32): Uncomp_WriteBuffer.dataLength
+
+---- RI (Sporadic): samrh71tx
+------ PARAM_IN (T-UInt8): samrh71tx.iByteOut
+
+
+-- Function (SDL): UartOtherEnd
+---- PI (Sporadic): samrh71tx
+------ PARAM_IN (T-UInt8): samrh71tx.iByteOut
+
+
+---- RI (Sporadic): samrh71rx
+------ PARAM_IN (T-UInt8): samrh71rx.iByteIn
+
+
+
+--
