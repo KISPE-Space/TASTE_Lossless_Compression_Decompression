@@ -5,6 +5,7 @@ This repository includes reusable components that supports the lossless compress
 This repository contains 2 reusable components:
 - DataCompressor
 - DataUncompressor
+
 Both of the above are implemented individual TASTE functions. They make use of the Zlib compression library
 
 The repository also contains a test function called TestCompressUncompress which is designed to demonstrate the compression and decompression over a UART interface running on a SAMRH71 processor.
