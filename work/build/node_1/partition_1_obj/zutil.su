@@ -1,0 +1,6 @@
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zutil.c:27:22:zlibVersion	4	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zutil.c:31:15:zlibCompileFlags	16	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zutil.c:139:22:zError	16	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zutil.c:323:22:zcalloc	40	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zutil.c:347:20:zcfree	16	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zutil.c:360:6:zcfreeall	4	static

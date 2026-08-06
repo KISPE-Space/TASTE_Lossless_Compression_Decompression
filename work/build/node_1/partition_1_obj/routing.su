@@ -1,0 +1,12 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:15:12:datacompressor_clearbuffer_get_sender	8	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:21:12:datacompressor_readdata_get_sender	8	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:27:12:datacompressor_startcompression_get_sender	8	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:33:12:datacompressor_status_get_sender	8	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:39:12:datacompressor_writebuffer_get_sender	8	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:51:12:datauncompressor_clearbuffer_get_sender	8	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:57:12:datauncompressor_readdata_get_sender	8	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:63:12:datauncompressor_startuncompression_get_sender	8	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:69:12:datauncompressor_status_get_sender	8	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:75:12:datauncompressor_writebuffer_get_sender	8	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:323:12:testcompressuncompress_runonce_get_sender	8	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:329:12:testcompressuncompress_samrh71rx_get_sender	8	static

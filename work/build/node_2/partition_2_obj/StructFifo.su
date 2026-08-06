@@ -1,0 +1,9 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/StructFifo.h:111:1:StructFifo_isFull	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/StructFifo.h:121:1:StructFifo_isEmpty	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/StructFifo.c:27:1:StructFifo_init	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/StructFifo.c:39:1:StructFifo_push	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/StructFifo.c:56:1:StructFifo_pushUnaligned	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/StructFifo.c:73:1:StructFifo_pull	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/StructFifo.c:88:1:StructFifo_pullUnaligned	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/StructFifo.c:103:1:StructFifo_peek	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/StructFifo.c:113:1:StructFifo_drop	16	static

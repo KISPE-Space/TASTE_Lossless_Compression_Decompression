@@ -1,0 +1,6 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/src/ThreadsCommon/ThreadsCommon.c:54:13:schedule_next_tick	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/src/ThreadsCommon/ThreadsCommon.c:68:13:timer_callback	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/src/ThreadsCommon/ThreadsCommon.c:80:13:update_execution_time_data	48	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/src/ThreadsCommon/ThreadsCommon.c:105:6:ThreadsCommon_CreateCyclicRequest	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/src/ThreadsCommon/ThreadsCommon.c:139:6:ThreadsCommon_ProcessRequest	56	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/src/ThreadsCommon/ThreadsCommon.c:164:6:ThreadsCommon_SendRequest	32	static

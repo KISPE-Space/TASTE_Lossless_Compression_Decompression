@@ -1,0 +1,100 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c"
+node: { title: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:inflateStateCheck" label: "inflateStateCheck\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:88:11\n24 bytes (static)" }
+node: { title: "inflateResetKeep" label: "inflateResetKeep\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:100:13\n24 bytes (static)" }
+edge: { sourcename: "inflateResetKeep" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:inflateStateCheck" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:103:9" }
+node: { title: "inflateReset" label: "inflateReset\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:125:13\n24 bytes (static)" }
+edge: { sourcename: "inflateReset" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:inflateStateCheck" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:128:9" }
+edge: { sourcename: "inflateReset" targetname: "inflateResetKeep" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:133:12" }
+node: { title: "inflateReset2" label: "inflateReset2\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:136:13\n24 bytes (static)" }
+edge: { sourcename: "inflateReset2" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:inflateStateCheck" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:141:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "inflateReset2" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:163:9" }
+edge: { sourcename: "inflateReset2" targetname: "inflateReset" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:170:12" }
+node: { title: "inflateInit2_" label: "inflateInit2_\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:173:13\n32 bytes (static)" }
+edge: { sourcename: "inflateInit2_" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:198:9" }
+node: { title: "memset" label: "memset\n/opt/taste-rtems-qdp-arm/arm-rtems6/include/string.h:33:9" shape : ellipse }
+edge: { sourcename: "inflateInit2_" targetname: "memset" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:200:5" }
+edge: { sourcename: "inflateInit2_" targetname: "inflateReset2" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:206:11" }
+edge: { sourcename: "inflateInit2_" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:208:9" }
+node: { title: "inflateInit_" label: "inflateInit_\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:214:13\n24 bytes (static)" }
+edge: { sourcename: "inflateInit_" targetname: "inflateInit2_" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:216:12" }
+node: { title: "inflatePrime" label: "inflatePrime\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:219:13\n32 bytes (static)" }
+edge: { sourcename: "inflatePrime" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:inflateStateCheck" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:222:9" }
+node: { title: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:updatewindow" label: "updatewindow\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:252:11\n32 bytes (static)" }
+edge: { sourcename: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:updatewindow" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:261:9" }
+node: { title: "memcpy" label: "memcpy\n/opt/taste-rtems-qdp-arm/arm-rtems6/include/string.h:31:9" shape : ellipse }
+edge: { sourcename: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:updatewindow" targetname: "memcpy" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:275:9" }
+edge: { sourcename: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:updatewindow" targetname: "memcpy" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:282:9" }
+edge: { sourcename: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:updatewindow" targetname: "memcpy" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:285:13" }
+node: { title: "inflate" label: "inflate\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:474:21\n104 bytes (static)" }
+edge: { sourcename: "inflate" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:inflateStateCheck" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:494:13" }
+node: { title: "crc32" label: "crc32\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/zlib.h:1848:23" shape : ellipse }
+edge: { sourcename: "inflate" targetname: "crc32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:526:36" }
+edge: { sourcename: "inflate" targetname: "crc32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:527:21" }
+node: { title: "adler32" label: "adler32\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/zlib.h:1809:23" shape : ellipse }
+edge: { sourcename: "inflate" targetname: "adler32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:560:46" }
+edge: { sourcename: "inflate" targetname: "crc32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:581:21" }
+edge: { sourcename: "inflate" targetname: "crc32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:590:21" }
+edge: { sourcename: "inflate" targetname: "crc32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:601:21" }
+edge: { sourcename: "inflate" targetname: "crc32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:612:25" }
+edge: { sourcename: "inflate" targetname: "memcpy" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:628:29" }
+edge: { sourcename: "inflate" targetname: "crc32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:633:44" }
+edge: { sourcename: "inflate" targetname: "crc32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:655:40" }
+edge: { sourcename: "inflate" targetname: "crc32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:677:40" }
+edge: { sourcename: "inflate" targetname: "crc32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:700:46" }
+edge: { sourcename: "inflate" targetname: "adler32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:715:46" }
+node: { title: "inflate_fixed" label: "inflate_fixed\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inftrees.h:64:20" shape : ellipse }
+edge: { sourcename: "inflate" targetname: "inflate_fixed" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:737:21" }
+edge: { sourcename: "inflate" targetname: "memcpy" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:781:21" }
+node: { title: "inflate_table" label: "inflate_table\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inftrees.h:60:19" shape : ellipse }
+edge: { sourcename: "inflate" targetname: "inflate_table" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:823:23" }
+edge: { sourcename: "inflate" targetname: "inflate_table" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:901:23" }
+edge: { sourcename: "inflate" targetname: "inflate_table" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:910:23" }
+node: { title: "inflate_fast" label: "inflate_fast\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inffast.h:11:20" shape : ellipse }
+edge: { sourcename: "inflate" targetname: "inflate_fast" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:927:21" }
+edge: { sourcename: "inflate" targetname: "crc32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1090:29" }
+edge: { sourcename: "inflate" targetname: "adler32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1090:29" }
+edge: { sourcename: "inflate" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:updatewindow" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1145:17" }
+edge: { sourcename: "inflate" targetname: "crc32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1156:17" }
+edge: { sourcename: "inflate" targetname: "adler32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1156:17" }
+node: { title: "inflateEnd" label: "inflateEnd\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1165:13\n24 bytes (static)" }
+edge: { sourcename: "inflateEnd" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:inflateStateCheck" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1167:9" }
+edge: { sourcename: "inflateEnd" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1170:34" }
+edge: { sourcename: "inflateEnd" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1171:5" }
+node: { title: "inflateGetDictionary" label: "inflateGetDictionary\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1177:13\n32 bytes (static)" }
+edge: { sourcename: "inflateGetDictionary" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:inflateStateCheck" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1182:9" }
+edge: { sourcename: "inflateGetDictionary" targetname: "memcpy" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1187:9" }
+edge: { sourcename: "inflateGetDictionary" targetname: "memcpy" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1189:9" }
+node: { title: "inflateSetDictionary" label: "inflateSetDictionary\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1197:13\n40 bytes (static)" }
+edge: { sourcename: "inflateSetDictionary" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:inflateStateCheck" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1204:9" }
+edge: { sourcename: "inflateSetDictionary" targetname: "adler32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1211:18" }
+edge: { sourcename: "inflateSetDictionary" targetname: "adler32" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1212:18" }
+edge: { sourcename: "inflateSetDictionary" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:updatewindow" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1219:11" }
+node: { title: "inflateGetHeader" label: "inflateGetHeader\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1229:13\n24 bytes (static)" }
+edge: { sourcename: "inflateGetHeader" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:inflateStateCheck" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1233:9" }
+node: { title: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:syncsearch" label: "syncsearch\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1254:16\n32 bytes (static)" }
+node: { title: "inflateSync" label: "inflateSync\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1274:13\n40 bytes (static)" }
+edge: { sourcename: "inflateSync" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:inflateStateCheck" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1282:9" }
+edge: { sourcename: "inflateSync" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:syncsearch" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1298:9" }
+edge: { sourcename: "inflateSync" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:syncsearch" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1302:11" }
+edge: { sourcename: "inflateSync" targetname: "inflateReset" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1315:5" }
+node: { title: "inflateSyncPoint" label: "inflateSyncPoint\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1330:13\n24 bytes (static)" }
+edge: { sourcename: "inflateSyncPoint" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:inflateStateCheck" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1333:9" }
+node: { title: "inflateCopy" label: "inflateCopy\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1338:13\n32 bytes (static)" }
+edge: { sourcename: "inflateCopy" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:inflateStateCheck" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1344:9" }
+edge: { sourcename: "inflateCopy" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1350:9" }
+edge: { sourcename: "inflateCopy" targetname: "memset" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1352:5" }
+edge: { sourcename: "inflateCopy" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1356:9" }
+edge: { sourcename: "inflateCopy" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1358:13" }
+edge: { sourcename: "inflateCopy" targetname: "memcpy" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1364:5" }
+edge: { sourcename: "inflateCopy" targetname: "memcpy" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1365:5" }
+edge: { sourcename: "inflateCopy" targetname: "memcpy" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1374:9" }
+node: { title: "inflateUndermine" label: "inflateUndermine\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1380:13\n24 bytes (static)" }
+edge: { sourcename: "inflateUndermine" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:inflateStateCheck" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1383:9" }
+node: { title: "inflateValidate" label: "inflateValidate\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1395:13\n24 bytes (static)" }
+edge: { sourcename: "inflateValidate" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:inflateStateCheck" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1398:9" }
+node: { title: "inflateMark" label: "inflateMark\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1407:14\n24 bytes (static)" }
+edge: { sourcename: "inflateMark" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:inflateStateCheck" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1410:9" }
+node: { title: "inflateCodesUsed" label: "inflateCodesUsed\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1418:23\n24 bytes (static)" }
+edge: { sourcename: "inflateCodesUsed" targetname: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:inflateStateCheck" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inflate.c:1420:9" }
+}

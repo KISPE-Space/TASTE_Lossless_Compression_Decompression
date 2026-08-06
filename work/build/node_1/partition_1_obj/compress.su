@@ -1,0 +1,6 @@
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:24:13:compress2_z	96	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:69:13:compress2	40	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:79:13:compress_z	32	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:84:13:compress	32	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:93:18:compressBound_z	24	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:98:15:compressBound	24	static

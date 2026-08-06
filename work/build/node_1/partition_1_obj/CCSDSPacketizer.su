@@ -1,0 +1,8 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Packetizer/CCSDSPacketizer.c:34:1:CCSDS_Packetizer_init	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Packetizer/CCSDSPacketizer.c:44:1:CCSDS_Packetizer_packetize	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Packetizer/CCSDSPacketizer.c:88:1:CCSDS_Packetizer_depacketize	40	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Packetizer/CCSDSPacketizer.c:157:1:writeCCSDSPacketId	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Packetizer/CCSDSPacketizer.c:171:1:writeCCSDSPacketSequenceControl	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Packetizer/CCSDSPacketizer.c:183:1:writeCCSDSPacketDataLength	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Packetizer/CCSDSPacketizer.c:190:1:writeChecksum	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Packetizer/CCSDSPacketizer.c:200:1:readCCSDSPacketDataLength	16	static

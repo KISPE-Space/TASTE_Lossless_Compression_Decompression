@@ -1,0 +1,17 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Packetizer/DeviceProvidedPacketizer.c"
+node: { title: "DeviceProvidedPacketizer_init" label: "DeviceProvidedPacketizer_init\n/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Packetizer/DeviceProvidedPacketizer.c:26:1\n32 bytes (static)" }
+node: { title: "getDeviceProvidedPacketizerInitFunction" label: "getDeviceProvidedPacketizerInitFunction\n/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/device_provided_packetizer.h:15:26" shape : ellipse }
+edge: { sourcename: "DeviceProvidedPacketizer_init" targetname: "getDeviceProvidedPacketizerInitFunction" label: "/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Packetizer/DeviceProvidedPacketizer.c:28:48" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "DeviceProvidedPacketizer_init" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Packetizer/DeviceProvidedPacketizer.c:30:5" }
+node: { title: "setDeviceProvidedPacketizerHeaderSize" label: "setDeviceProvidedPacketizerHeaderSize\n/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/device_provided_packetizer.h:21:6" shape : ellipse }
+edge: { sourcename: "DeviceProvidedPacketizer_init" targetname: "setDeviceProvidedPacketizerHeaderSize" label: "/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Packetizer/DeviceProvidedPacketizer.c:32:5" }
+node: { title: "DeviceProvidedPacketizer_packetize" label: "DeviceProvidedPacketizer_packetize\n/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Packetizer/DeviceProvidedPacketizer.c:36:1\n56 bytes (static)" }
+node: { title: "getDeviceProvidedPacketizerPacketizeFunction" label: "getDeviceProvidedPacketizerPacketizeFunction\n/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/device_provided_packetizer.h:17:31" shape : ellipse }
+edge: { sourcename: "DeviceProvidedPacketizer_packetize" targetname: "getDeviceProvidedPacketizerPacketizeFunction" label: "/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Packetizer/DeviceProvidedPacketizer.c:45:58" }
+edge: { sourcename: "DeviceProvidedPacketizer_packetize" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Packetizer/DeviceProvidedPacketizer.c:51:12" }
+node: { title: "DeviceProvidedPacketizer_depacketize" label: "DeviceProvidedPacketizer_depacketize\n/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Packetizer/DeviceProvidedPacketizer.c:55:1\n64 bytes (static)" }
+node: { title: "getDeviceProvidedPacketizerDepacketizeFunction" label: "getDeviceProvidedPacketizerDepacketizeFunction\n/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/device_provided_packetizer.h:19:33" shape : ellipse }
+edge: { sourcename: "DeviceProvidedPacketizer_depacketize" targetname: "getDeviceProvidedPacketizerDepacketizeFunction" label: "/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Packetizer/DeviceProvidedPacketizer.c:66:62" }
+edge: { sourcename: "DeviceProvidedPacketizer_depacketize" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Packetizer/DeviceProvidedPacketizer.c:72:12" }
+}

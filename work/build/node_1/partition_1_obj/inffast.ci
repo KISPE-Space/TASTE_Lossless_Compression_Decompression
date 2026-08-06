@@ -1,0 +1,3 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inffast.c"
+node: { title: "inflate_fast" label: "inflate_fast\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/inffast.c:50:20\n104 bytes (static)" }
+}

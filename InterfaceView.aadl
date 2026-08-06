@@ -1,0 +1,737 @@
+---------------------------------------------------
+-- AADL2.2
+-- TASTE type interfaceview
+-- 
+-- generated code: do not edit
+---------------------------------------------------
+
+
+PACKAGE interfaceview::IV::TestCompressUncompress
+PUBLIC
+
+WITH Taste;
+WITH DataView;
+WITH TASTE_IV_Properties;
+WITH interfaceview::IV::DataCompressor;
+WITH interfaceview::IV::DataUncompressor;
+WITH interfaceview::IV::UartOtherEnd;
+
+SUBPROGRAM PI_RunOnce
+END PI_RunOnce;
+
+SUBPROGRAM IMPLEMENTATION PI_RunOnce.others
+END PI_RunOnce.others;
+
+
+SUBPROGRAM PI_samrh71rx
+FEATURES
+    iByteIn : IN PARAMETER DataView::T_UInt8 {
+       Taste::encoding => ACN;
+    };
+END PI_samrh71rx;
+
+SUBPROGRAM IMPLEMENTATION PI_samrh71rx.others
+END PI_samrh71rx.others;
+
+
+SUBPROGRAM RI_Comp_StartCompression
+END RI_Comp_StartCompression;
+
+SUBPROGRAM IMPLEMENTATION RI_Comp_StartCompression.others
+END RI_Comp_StartCompression.others;
+
+
+SUBPROGRAM RI_Comp_ClearBuffer
+END RI_Comp_ClearBuffer;
+
+SUBPROGRAM IMPLEMENTATION RI_Comp_ClearBuffer.others
+END RI_Comp_ClearBuffer.others;
+
+
+SUBPROGRAM RI_Comp_WriteBuffer
+FEATURES
+    dataBuffer : IN PARAMETER DataView::CompressorDataBuffer {
+       Taste::encoding => NATIVE;
+    };
+    dataLength : IN PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+END RI_Comp_WriteBuffer;
+
+SUBPROGRAM IMPLEMENTATION RI_Comp_WriteBuffer.others
+END RI_Comp_WriteBuffer.others;
+
+
+SUBPROGRAM RI_Comp_Status
+FEATURES
+    currentStatus : OUT PARAMETER DataView::CompressorState {
+       Taste::encoding => NATIVE;
+    };
+    compressedDataLength : OUT PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+END RI_Comp_Status;
+
+SUBPROGRAM IMPLEMENTATION RI_Comp_Status.others
+END RI_Comp_Status.others;
+
+
+SUBPROGRAM RI_Comp_ReadData
+FEATURES
+    dataOut : OUT PARAMETER DataView::CompressorDataBuffer {
+       Taste::encoding => NATIVE;
+    };
+    byteOffset : IN PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+    bytesToRead : IN PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+    bytesWritten : OUT PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+END RI_Comp_ReadData;
+
+SUBPROGRAM IMPLEMENTATION RI_Comp_ReadData.others
+END RI_Comp_ReadData.others;
+
+
+SUBPROGRAM RI_Uncomp_StartUncompression
+END RI_Uncomp_StartUncompression;
+
+SUBPROGRAM IMPLEMENTATION RI_Uncomp_StartUncompression.others
+END RI_Uncomp_StartUncompression.others;
+
+
+SUBPROGRAM RI_Uncomp_ClearBuffer
+END RI_Uncomp_ClearBuffer;
+
+SUBPROGRAM IMPLEMENTATION RI_Uncomp_ClearBuffer.others
+END RI_Uncomp_ClearBuffer.others;
+
+
+SUBPROGRAM RI_Uncomp_WriteBuffer
+FEATURES
+    dataBuffer : IN PARAMETER DataView::CompressorDataBuffer {
+       Taste::encoding => NATIVE;
+    };
+    dataLength : IN PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+END RI_Uncomp_WriteBuffer;
+
+SUBPROGRAM IMPLEMENTATION RI_Uncomp_WriteBuffer.others
+END RI_Uncomp_WriteBuffer.others;
+
+
+SUBPROGRAM RI_Uncomp_Status
+FEATURES
+    currentStatus : OUT PARAMETER DataView::CompressorState {
+       Taste::encoding => NATIVE;
+    };
+    decompressedDataLength : OUT PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+END RI_Uncomp_Status;
+
+SUBPROGRAM IMPLEMENTATION RI_Uncomp_Status.others
+END RI_Uncomp_Status.others;
+
+
+SUBPROGRAM RI_Uncomp_ReadData
+FEATURES
+    dataOut : OUT PARAMETER DataView::CompressorDataBuffer {
+       Taste::encoding => NATIVE;
+    };
+    byteOffset : IN PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+    bytesToRead : IN PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+    bytesWritten : OUT PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+END RI_Uncomp_ReadData;
+
+SUBPROGRAM IMPLEMENTATION RI_Uncomp_ReadData.others
+END RI_Uncomp_ReadData.others;
+
+
+SUBPROGRAM RI_samrh71tx
+FEATURES
+    iByteOut : IN PARAMETER DataView::T_UInt8 {
+       Taste::encoding => ACN;
+    };
+END RI_samrh71tx;
+
+SUBPROGRAM IMPLEMENTATION RI_samrh71tx.others
+END RI_samrh71tx.others;
+
+
+
+SYSTEM TestCompressUncompress
+FEATURES
+   PI_RunOnce : PROVIDES SUBPROGRAM ACCESS interfaceview::IV:: TestCompressUncompress:: PI_RunOnce.others {
+      Taste::InterfaceName           => "RunOnce";            
+      Taste::RCMoperationKind        => cyclic;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Taste::Interface_Priority      => 1;      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+      Taste::Interface_Stack_Size    => 1024;      
+      Taste::Interface_Cyclic_Offset => 0;      
+      Taste::RCMperiod               => 5000 ms;      
+   };
+   PI_samrh71rx : PROVIDES SUBPROGRAM ACCESS interfaceview::IV:: TestCompressUncompress:: PI_samrh71rx.others {
+      Taste::InterfaceName           => "samrh71rx";            
+      Taste::RCMoperationKind        => sporadic;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Taste::Interface_Priority      => 1;      
+      Taste::RCMperiod               => 0 ms;      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+      Taste::Associated_Queue_Size   => 1;      
+      Taste::Interface_Stack_Size    => 1024;      
+   };
+   RI_Comp_StartCompression : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: DataCompressor:: PI_StartCompression.others {
+      Taste::labelInheritance        => "true";
+      Taste::InterfaceName           => "Comp_StartCompression";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   RI_Comp_ClearBuffer : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: DataCompressor:: PI_ClearBuffer.others {
+      Taste::labelInheritance        => "true";
+      Taste::InterfaceName           => "Comp_ClearBuffer";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   RI_Comp_WriteBuffer : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: DataCompressor:: PI_WriteBuffer.others {
+      Taste::labelInheritance        => "true";
+      Taste::InterfaceName           => "Comp_WriteBuffer";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   RI_Comp_Status : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: DataCompressor:: PI_Status.others {
+      Taste::labelInheritance        => "true";
+      Taste::InterfaceName           => "Comp_Status";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   RI_Comp_ReadData : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: DataCompressor:: PI_ReadData.others {
+      Taste::labelInheritance        => "true";
+      Taste::InterfaceName           => "Comp_ReadData";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   RI_Uncomp_StartUncompression : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: DataUncompressor:: PI_StartUncompression.others {
+      Taste::labelInheritance        => "true";
+      Taste::InterfaceName           => "Uncomp_StartUncompression";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   RI_Uncomp_ClearBuffer : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: DataUncompressor:: PI_ClearBuffer.others {
+      Taste::labelInheritance        => "true";
+      Taste::InterfaceName           => "Uncomp_ClearBuffer";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   RI_Uncomp_WriteBuffer : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: DataUncompressor:: PI_WriteBuffer.others {
+      Taste::labelInheritance        => "true";
+      Taste::InterfaceName           => "Uncomp_WriteBuffer";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   RI_Uncomp_Status : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: DataUncompressor:: PI_Status.others {
+      Taste::labelInheritance        => "true";
+      Taste::InterfaceName           => "Uncomp_Status";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   RI_Uncomp_ReadData : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: DataUncompressor:: PI_ReadData.others {
+      Taste::labelInheritance        => "true";
+      Taste::InterfaceName           => "Uncomp_ReadData";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   RI_samrh71tx : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: UartOtherEnd:: PI_samrh71tx.others {
+      Taste::labelInheritance        => "true";
+      Taste::InterfaceName           => "samrh71tx";            
+      Taste::RCMoperationKind        => sporadic;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Taste::Interface_Priority      => 1;      
+      Taste::RCMperiod               => 0 ms;      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+      Taste::Associated_Queue_Size   => 1;      
+      Taste::Interface_Stack_Size    => 1024;      
+   };
+PROPERTIES
+   -- ignored property: name = TestCompressUncompress
+   -- ignored property: is_type = NO
+   Source_Language => (C);
+   -- ignored property: default_implementation = default
+   -- ignored property: fixed_system_element = NO
+   -- ignored property: required_system_element = NO
+   Taste::Instances_Max => 1;
+   Taste::Instances_Min => 1;
+   Taste::Startup_Priority => 1;
+   TASTE_IV_Properties::Default_Codegen => Ada;
+
+END TestCompressUncompress;
+
+SYSTEM IMPLEMENTATION TestCompressUncompress.others
+END TestCompressUncompress.others;
+
+END interfaceview::IV::TestCompressUncompress;
+
+
+
+PACKAGE interfaceview::IV::UartOtherEnd
+PUBLIC
+
+WITH Taste;
+WITH DataView;
+WITH TASTE_IV_Properties;
+WITH interfaceview::IV::TestCompressUncompress;
+
+SUBPROGRAM PI_samrh71tx
+FEATURES
+    iByteOut : IN PARAMETER DataView::T_UInt8 {
+       Taste::encoding => ACN;
+    };
+END PI_samrh71tx;
+
+SUBPROGRAM IMPLEMENTATION PI_samrh71tx.others
+END PI_samrh71tx.others;
+
+
+SUBPROGRAM RI_samrh71rx
+FEATURES
+    iByteIn : IN PARAMETER DataView::T_UInt8 {
+       Taste::encoding => ACN;
+    };
+END RI_samrh71rx;
+
+SUBPROGRAM IMPLEMENTATION RI_samrh71rx.others
+END RI_samrh71rx.others;
+
+
+
+SYSTEM UartOtherEnd
+FEATURES
+   PI_samrh71tx : PROVIDES SUBPROGRAM ACCESS interfaceview::IV:: UartOtherEnd:: PI_samrh71tx.others {
+      Taste::InterfaceName           => "samrh71tx";            
+      Taste::RCMoperationKind        => sporadic;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Taste::Interface_Priority      => 1;      
+      Taste::RCMperiod               => 0 ms;      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+      Taste::Associated_Queue_Size   => 1;      
+      Taste::Interface_Stack_Size    => 1024;      
+   };
+   RI_samrh71rx : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: TestCompressUncompress:: PI_samrh71rx.others {
+      Taste::labelInheritance        => "true";
+      Taste::InterfaceName           => "samrh71rx";            
+      Taste::RCMoperationKind        => sporadic;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Taste::Interface_Priority      => 1;      
+      Taste::RCMperiod               => 0 ms;      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+      Taste::Associated_Queue_Size   => 1;      
+      Taste::Interface_Stack_Size    => 1024;      
+   };
+PROPERTIES
+   -- ignored property: name = UartOtherEnd
+   -- ignored property: is_type = NO
+   Source_Language => (SDL);
+   -- ignored property: default_implementation = default
+   -- ignored property: fixed_system_element = NO
+   -- ignored property: required_system_element = NO
+   Taste::Instances_Max => 1;
+   Taste::Instances_Min => 1;
+   Taste::Startup_Priority => 1;
+   TASTE_IV_Properties::Default_Codegen => C;
+
+END UartOtherEnd;
+
+SYSTEM IMPLEMENTATION UartOtherEnd.others
+END UartOtherEnd.others;
+
+END interfaceview::IV::UartOtherEnd;
+
+
+
+PACKAGE interfaceview::IV::DataCompressor
+PUBLIC
+
+WITH Taste;
+WITH DataView;
+WITH TASTE_IV_Properties;
+WITH interfaceview::IV::TestCompressUncompress;
+
+SUBPROGRAM PI_StartCompression
+END PI_StartCompression;
+
+SUBPROGRAM IMPLEMENTATION PI_StartCompression.others
+END PI_StartCompression.others;
+
+
+SUBPROGRAM PI_WriteBuffer
+FEATURES
+    dataBuffer : IN PARAMETER DataView::CompressorDataBuffer {
+       Taste::encoding => NATIVE;
+    };
+    dataLength : IN PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+END PI_WriteBuffer;
+
+SUBPROGRAM IMPLEMENTATION PI_WriteBuffer.others
+END PI_WriteBuffer.others;
+
+
+SUBPROGRAM PI_ClearBuffer
+END PI_ClearBuffer;
+
+SUBPROGRAM IMPLEMENTATION PI_ClearBuffer.others
+END PI_ClearBuffer.others;
+
+
+SUBPROGRAM PI_Status
+FEATURES
+    currentStatus : OUT PARAMETER DataView::CompressorState {
+       Taste::encoding => NATIVE;
+    };
+    compressedDataLength : OUT PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+END PI_Status;
+
+SUBPROGRAM IMPLEMENTATION PI_Status.others
+END PI_Status.others;
+
+
+SUBPROGRAM PI_ReadData
+FEATURES
+    dataOut : OUT PARAMETER DataView::CompressorDataBuffer {
+       Taste::encoding => NATIVE;
+    };
+    byteOffset : IN PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+    bytesToRead : IN PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+    bytesWritten : OUT PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+END PI_ReadData;
+
+SUBPROGRAM IMPLEMENTATION PI_ReadData.others
+END PI_ReadData.others;
+
+
+
+SYSTEM DataCompressor
+FEATURES
+   PI_StartCompression : PROVIDES SUBPROGRAM ACCESS interfaceview::IV:: DataCompressor:: PI_StartCompression.others {
+      Taste::InterfaceName           => "StartCompression";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   PI_WriteBuffer : PROVIDES SUBPROGRAM ACCESS interfaceview::IV:: DataCompressor:: PI_WriteBuffer.others {
+      Taste::InterfaceName           => "WriteBuffer";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   PI_ClearBuffer : PROVIDES SUBPROGRAM ACCESS interfaceview::IV:: DataCompressor:: PI_ClearBuffer.others {
+      Taste::InterfaceName           => "ClearBuffer";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   PI_Status : PROVIDES SUBPROGRAM ACCESS interfaceview::IV:: DataCompressor:: PI_Status.others {
+      Taste::InterfaceName           => "Status";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   PI_ReadData : PROVIDES SUBPROGRAM ACCESS interfaceview::IV:: DataCompressor:: PI_ReadData.others {
+      Taste::InterfaceName           => "ReadData";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+PROPERTIES
+   -- ignored property: name = DataCompressor
+   -- ignored property: is_type = NO
+   Source_Language => (C);
+   -- ignored property: default_implementation = default
+   -- ignored property: fixed_system_element = NO
+   -- ignored property: required_system_element = NO
+   Taste::Instances_Max => 1;
+   Taste::Instances_Min => 1;
+   Taste::Startup_Priority => 1;
+   TASTE_IV_Properties::Default_Codegen => Ada;
+
+END DataCompressor;
+
+SYSTEM IMPLEMENTATION DataCompressor.others
+END DataCompressor.others;
+
+END interfaceview::IV::DataCompressor;
+
+
+
+PACKAGE interfaceview::IV::DataUncompressor
+PUBLIC
+
+WITH Taste;
+WITH DataView;
+WITH TASTE_IV_Properties;
+WITH interfaceview::IV::TestCompressUncompress;
+
+SUBPROGRAM PI_StartUncompression
+END PI_StartUncompression;
+
+SUBPROGRAM IMPLEMENTATION PI_StartUncompression.others
+END PI_StartUncompression.others;
+
+
+SUBPROGRAM PI_WriteBuffer
+FEATURES
+    dataBuffer : IN PARAMETER DataView::CompressorDataBuffer {
+       Taste::encoding => NATIVE;
+    };
+    dataLength : IN PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+END PI_WriteBuffer;
+
+SUBPROGRAM IMPLEMENTATION PI_WriteBuffer.others
+END PI_WriteBuffer.others;
+
+
+SUBPROGRAM PI_ClearBuffer
+END PI_ClearBuffer;
+
+SUBPROGRAM IMPLEMENTATION PI_ClearBuffer.others
+END PI_ClearBuffer.others;
+
+
+SUBPROGRAM PI_Status
+FEATURES
+    currentStatus : OUT PARAMETER DataView::CompressorState {
+       Taste::encoding => NATIVE;
+    };
+    decompressedDataLength : OUT PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+END PI_Status;
+
+SUBPROGRAM IMPLEMENTATION PI_Status.others
+END PI_Status.others;
+
+
+SUBPROGRAM PI_ReadData
+FEATURES
+    dataOut : OUT PARAMETER DataView::CompressorDataBuffer {
+       Taste::encoding => NATIVE;
+    };
+    byteOffset : IN PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+    bytesToRead : IN PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+    bytesWritten : OUT PARAMETER DataView::T_UInt32 {
+       Taste::encoding => NATIVE;
+    };
+END PI_ReadData;
+
+SUBPROGRAM IMPLEMENTATION PI_ReadData.others
+END PI_ReadData.others;
+
+
+
+SYSTEM DataUncompressor
+FEATURES
+   PI_StartUncompression : PROVIDES SUBPROGRAM ACCESS interfaceview::IV:: DataUncompressor:: PI_StartUncompression.others {
+      Taste::InterfaceName           => "StartUncompression";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   PI_WriteBuffer : PROVIDES SUBPROGRAM ACCESS interfaceview::IV:: DataUncompressor:: PI_WriteBuffer.others {
+      Taste::InterfaceName           => "WriteBuffer";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   PI_ClearBuffer : PROVIDES SUBPROGRAM ACCESS interfaceview::IV:: DataUncompressor:: PI_ClearBuffer.others {
+      Taste::InterfaceName           => "ClearBuffer";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   PI_Status : PROVIDES SUBPROGRAM ACCESS interfaceview::IV:: DataUncompressor:: PI_Status.others {
+      Taste::InterfaceName           => "Status";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+   PI_ReadData : PROVIDES SUBPROGRAM ACCESS interfaceview::IV:: DataUncompressor:: PI_ReadData.others {
+      Taste::InterfaceName           => "ReadData";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+PROPERTIES
+   -- ignored property: name = DataUncompressor
+   -- ignored property: is_type = NO
+   Source_Language => (C);
+   -- ignored property: default_implementation = default
+   -- ignored property: fixed_system_element = NO
+   -- ignored property: required_system_element = NO
+   Taste::Instances_Max => 1;
+   Taste::Instances_Min => 1;
+   Taste::Startup_Priority => 1;
+   TASTE_IV_Properties::Default_Codegen => Ada;
+
+END DataUncompressor;
+
+SYSTEM IMPLEMENTATION DataUncompressor.others
+END DataUncompressor.others;
+
+END interfaceview::IV::DataUncompressor;
+
+
+PACKAGE interfaceview::IV
+PUBLIC
+
+WITH interfaceview::IV::TestCompressUncompress;
+WITH interfaceview::IV::UartOtherEnd;
+WITH interfaceview::IV::DataCompressor;
+WITH interfaceview::IV::DataUncompressor;
+WITH Taste;
+WITH DataView;
+WITH TASTE_IV_Properties;
+
+SYSTEM interfaceview
+PROPERTIES
+   Taste::dataView     => ("DataView");
+   TASTE::dataViewPath => ("DataView.aadl");
+END interfaceview;
+
+SYSTEM IMPLEMENTATION interfaceview.others
+SUBCOMPONENTS
+  TestCompressUncompress : SYSTEM interfaceview::IV::TestCompressUncompress::TestCompressUncompress.others;
+  UartOtherEnd : SYSTEM interfaceview::IV::UartOtherEnd::UartOtherEnd.others;
+  DataCompressor : SYSTEM interfaceview::IV::DataCompressor::DataCompressor.others;
+  DataUncompressor : SYSTEM interfaceview::IV::DataUncompressor::DataUncompressor.others;
+CONNECTIONS
+   TestCompressUncompress_RI_Comp_Status_DataCompressor_PI_Status : SUBPROGRAM ACCESS DataCompressor.PI_Status -> TestCompressUncompress.RI_Comp_Status;
+   TestCompressUncompress_RI_Uncomp_ReadData_DataUncompressor_PI_ReadData : SUBPROGRAM ACCESS DataUncompressor.PI_ReadData -> TestCompressUncompress.RI_Uncomp_ReadData;
+   TestCompressUncompress_RI_Uncomp_ClearBuffer_DataUncompressor_PI_ClearBuffer : SUBPROGRAM ACCESS DataUncompressor.PI_ClearBuffer -> TestCompressUncompress.RI_Uncomp_ClearBuffer;
+   UartOtherEnd_RI_samrh71rx_TestCompressUncompress_PI_samrh71rx : SUBPROGRAM ACCESS TestCompressUncompress.PI_samrh71rx -> UartOtherEnd.RI_samrh71rx;
+   TestCompressUncompress_RI_Comp_ClearBuffer_DataCompressor_PI_ClearBuffer : SUBPROGRAM ACCESS DataCompressor.PI_ClearBuffer -> TestCompressUncompress.RI_Comp_ClearBuffer;
+   TestCompressUncompress_RI_Comp_StartCompression_DataCompressor_PI_StartCompression : SUBPROGRAM ACCESS DataCompressor.PI_StartCompression -> TestCompressUncompress.RI_Comp_StartCompression;
+   TestCompressUncompress_RI_samrh71tx_UartOtherEnd_PI_samrh71tx : SUBPROGRAM ACCESS UartOtherEnd.PI_samrh71tx -> TestCompressUncompress.RI_samrh71tx;
+   TestCompressUncompress_RI_Uncomp_StartUncompression_DataUncompressor_PI_StartUncompression : SUBPROGRAM ACCESS DataUncompressor.PI_StartUncompression -> TestCompressUncompress.RI_Uncomp_StartUncompression;
+   TestCompressUncompress_RI_Uncomp_WriteBuffer_DataUncompressor_PI_WriteBuffer : SUBPROGRAM ACCESS DataUncompressor.PI_WriteBuffer -> TestCompressUncompress.RI_Uncomp_WriteBuffer;
+   TestCompressUncompress_RI_Uncomp_Status_DataUncompressor_PI_Status : SUBPROGRAM ACCESS DataUncompressor.PI_Status -> TestCompressUncompress.RI_Uncomp_Status;
+   TestCompressUncompress_RI_Comp_WriteBuffer_DataCompressor_PI_WriteBuffer : SUBPROGRAM ACCESS DataCompressor.PI_WriteBuffer -> TestCompressUncompress.RI_Comp_WriteBuffer;
+   TestCompressUncompress_RI_Comp_ReadData_DataCompressor_PI_ReadData : SUBPROGRAM ACCESS DataCompressor.PI_ReadData -> TestCompressUncompress.RI_Comp_ReadData;
+END interfaceview.others;
+
+PROPERTIES
+   Taste::dataView     => ("DataView");
+   Taste::dataViewPath => ("DataView.aadl");
+   Taste::coordinates  => "0 0 297000 210000";
+   Taste::version      => "3.0";
+END interfaceview::IV;

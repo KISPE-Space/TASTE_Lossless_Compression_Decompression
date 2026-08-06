@@ -1,0 +1,3 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/transport.c:8:6:deliver_to_uartotherend_samrh71tx	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/transport.c:27:6:deliver_to_testcompressuncompress_samrh71rx	72	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/transport.c:47:6:initialize_transport	4	static

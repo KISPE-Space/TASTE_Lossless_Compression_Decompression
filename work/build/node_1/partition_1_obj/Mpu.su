@@ -1,0 +1,11 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/Bits.h:121:1:shiftValueLeft	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/Bits.h:143:1:changeBitAtOffset	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Mpu/Mpu.c:35:1:Mpu_init	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Mpu/Mpu.c:42:1:Mpu_setConfig	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Mpu/Mpu.c:60:1:Mpu_getConfig	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Mpu/Mpu.c:76:1:generateAccessPermissionsAttrs	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Mpu/Mpu.c:101:1:generateStronglyOrderedMemoryAttrs	4	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Mpu/Mpu.c:109:1:generateDeviceMemoryAttrs	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Mpu/Mpu.c:119:1:generateNormalMemoryAttrs	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Mpu/Mpu.c:154:1:Mpu_generateAttributes	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Mpu/Mpu.c:182:1:Mpu_setRegionConfig	48	static

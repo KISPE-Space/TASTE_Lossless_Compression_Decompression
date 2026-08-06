@@ -1,0 +1,6 @@
+/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/src/testcompressuncompress.c:36:6:testcompressuncompress_startup	8	static
+/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/src/testcompressuncompress.c:46:6:testcompressuncompress_PI_RunOnce	320	static
+/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/src/testcompressuncompress.c:218:6:testcompressuncompress_PI_samrh71rx	56	static
+/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/src/testcompressuncompress.c:271:6:register_uart_byte_transmitter_function	16	static
+/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/src/testcompressuncompress.c:278:6:transmit_bytes_over_uart	32	static
+/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/src/testcompressuncompress.c:298:6:report_test_result_over_uart	328	static

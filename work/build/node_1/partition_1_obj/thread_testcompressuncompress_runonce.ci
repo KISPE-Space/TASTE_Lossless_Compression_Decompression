@@ -1,0 +1,13 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/thread_testcompressuncompress_runonce.c"
+node: { title: "testcompressuncompress_runonce_job" label: "testcompressuncompress_runonce_job\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/thread_testcompressuncompress_runonce.c:13:12\n88 bytes (static)" }
+node: { title: "ThreadsCommon_CreateCyclicRequest" label: "ThreadsCommon_CreateCyclicRequest\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/ThreadsCommon/ThreadsCommon.h:58:6" shape : ellipse }
+edge: { sourcename: "testcompressuncompress_runonce_job" targetname: "ThreadsCommon_CreateCyclicRequest" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/thread_testcompressuncompress_runonce.c:15:44" }
+node: { title: "__assert_func" label: "__assert_func\n/opt/taste-rtems-qdp-arm/arm-rtems6/include/assert.h:41:6" shape : ellipse }
+edge: { sourcename: "testcompressuncompress_runonce_job" targetname: "__assert_func" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/thread_testcompressuncompress_runonce.c:19:5" }
+node: { title: "memset" label: "__builtin_memset\n<built-in>" shape : ellipse }
+edge: { sourcename: "testcompressuncompress_runonce_job" targetname: "memset" }
+node: { title: "rtems_message_queue_receive" label: "rtems_message_queue_receive\n/opt/taste-rtems-qdp-arm/arm-rtems6/n7sbsp-samrh71f20/lib/include/rtems/rtems/message.h:809:19" shape : ellipse }
+edge: { sourcename: "testcompressuncompress_runonce_job" targetname: "rtems_message_queue_receive" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/thread_testcompressuncompress_runonce.c:25:36" }
+node: { title: "ThreadsCommon_ProcessRequest" label: "ThreadsCommon_ProcessRequest\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/ThreadsCommon/ThreadsCommon.h:76:6" shape : ellipse }
+edge: { sourcename: "testcompressuncompress_runonce_job" targetname: "ThreadsCommon_ProcessRequest" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/thread_testcompressuncompress_runonce.c:35:13" }
+}

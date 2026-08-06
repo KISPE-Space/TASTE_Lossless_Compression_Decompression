@@ -1,0 +1,10 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/Bits.h:121:1:shiftValueLeft	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/Bits.h:132:1:shiftBitLeft	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Systick/Systick.c:29:1:Systick_getDeviceRegisterStartAddress	4	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Systick/Systick.c:36:1:Systick_init	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Systick/Systick.c:42:1:Systick_setConfig	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Systick/Systick.c:60:1:Systick_getConfig	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Systick/Systick.c:75:1:Systick_getCalibrationInformation	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Systick/Systick.c:88:1:Systick_clearCurrentValue	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Systick/Systick.c:94:1:Systick_getCurrentValue	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Systick/Systick.c:101:1:Systick_hasCountedToZero	16	static

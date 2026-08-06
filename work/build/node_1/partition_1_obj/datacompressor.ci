@@ -1,0 +1,13 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/datacompressor.c"
+node: { title: "datacompressor_startup" label: "datacompressor_startup\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/datacompressor.c:42:6\n8 bytes (static)" }
+edge: { sourcename: "datacompressor_startup" targetname: "datacompressor_PI_ClearBuffer" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/datacompressor.c:44:5" }
+node: { title: "datacompressor_PI_ClearBuffer" label: "datacompressor_PI_ClearBuffer\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/datacompressor.c:48:6\n4 bytes (static)" }
+node: { title: "datacompressor_PI_WriteBuffer" label: "datacompressor_PI_WriteBuffer\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/datacompressor.c:58:6\n24 bytes (static)" }
+node: { title: "datacompressor_PI_StartCompression" label: "datacompressor_PI_StartCompression\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/datacompressor.c:75:6\n32 bytes (static)" }
+node: { title: "compressBound" label: "compressBound\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zlib.h:1307:23" shape : ellipse }
+edge: { sourcename: "datacompressor_PI_StartCompression" targetname: "compressBound" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/datacompressor.c:87:32" }
+node: { title: "compress2" label: "compress2\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zlib.h:1288:21" shape : ellipse }
+edge: { sourcename: "datacompressor_PI_StartCompression" targetname: "compress2" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/datacompressor.c:91:18" }
+node: { title: "datacompressor_PI_Status" label: "datacompressor_PI_Status\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/datacompressor.c:111:6\n16 bytes (static)" }
+node: { title: "datacompressor_PI_ReadData" label: "datacompressor_PI_ReadData\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/datacompressor.c:120:6\n32 bytes (static)" }
+}

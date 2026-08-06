@@ -1,0 +1,12 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c"
+node: { title: "CInituartotherend" label: "CInituartotherend\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:17:6\n8 bytes (static)" }
+edge: { sourcename: "CInituartotherend" targetname: "runTransitionUartotherend" label: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:22:4" }
+node: { title: "uartotherend_startup" label: "uartotherend_startup\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:27:6\n8 bytes (static)" }
+edge: { sourcename: "uartotherend_startup" targetname: "CInituartotherend" label: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:29:4" }
+node: { title: "uartotherend_PI_samrh71tx" label: "uartotherend_PI_samrh71tx\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:33:6\n16 bytes (static)" }
+edge: { sourcename: "uartotherend_PI_samrh71tx" targetname: "runTransitionUartotherend" label: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:35:4" }
+node: { title: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:branch_startup_transition" label: "branch_startup_transition\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:43:35\n4 bytes (static)" }
+node: { title: "runTransitionUartotherend" label: "runTransitionUartotherend\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:51:6\n24 bytes (static)" }
+edge: { sourcename: "runTransitionUartotherend" targetname: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:branch_startup_transition" label: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:58:42" }
+node: { title: "uartotherend_state" label: "uartotherend_state\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:66:7\n4 bytes (static)" }
+}

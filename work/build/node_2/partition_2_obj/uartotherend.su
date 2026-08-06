@@ -1,0 +1,6 @@
+/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:17:6:CInituartotherend	8	static
+/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:27:6:uartotherend_startup	8	static
+/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:33:6:uartotherend_PI_samrh71tx	16	static
+/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:43:35:branch_startup_transition	4	static
+/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:51:6:runTransitionUartotherend	24	static
+/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/code/uartotherend.c:66:7:uartotherend_state	4	static

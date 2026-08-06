@@ -1,0 +1,17 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/Bits.h:121:1:shiftValueLeft	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/Bits.h:132:1:shiftBitLeft	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/Bits.h:143:1:changeBitAtOffset	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/Bits.h:160:1:setValueAtOffset	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Matrix/Matrix.c:32:1:Matrix_init	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Matrix/Matrix.c:41:1:Matrix_setMasterConfig	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Matrix/Matrix.c:61:1:Matrix_setSlaveConfig	48	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Matrix/Matrix.c:114:1:Matrix_getMasterConfig	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Matrix/Matrix.c:136:1:Matrix_getSlaveConfig	48	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Matrix/Matrix.c:190:1:Matrix_getMastersStatuses	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Matrix/Matrix.c:206:1:Matrix_setWriteProtectionEnabled	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Matrix/Matrix.c:216:1:Matrix_isWriteProtectionEnabled	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Matrix/Matrix.c:224:1:Matrix_isWriteProtectionViolated	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Matrix/Matrix.c:239:1:Matrix_setSlaveRegionProtectionConfig	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Matrix/Matrix.c:285:1:Matrix_getSlaveRegionProtectionConfig	40	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Matrix/Matrix.c:331:1:Matrix_setPeripheralProtectionConfig	48	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Matrix/Matrix.c:347:1:Matrix_getPeripheralProtectionConfig	40	static

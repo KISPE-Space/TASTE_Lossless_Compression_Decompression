@@ -1,0 +1,20 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c"
+node: { title: "compress2_z" label: "compress2_z\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:24:13\n96 bytes (static)" }
+node: { title: "deflateInit_" label: "deflateInit_\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zlib.h:1903:21" shape : ellipse }
+edge: { sourcename: "compress2_z" targetname: "deflateInit_" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:42:11" }
+node: { title: "deflate" label: "deflate\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zlib.h:254:21" shape : ellipse }
+edge: { sourcename: "compress2_z" targetname: "deflate" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:60:15" }
+node: { title: "deflateEnd" label: "deflateEnd\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zlib.h:367:21" shape : ellipse }
+edge: { sourcename: "compress2_z" targetname: "deflateEnd" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:64:5" }
+node: { title: "zcfreeall" label: "zcfreeall\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:66:5" shape : ellipse }
+edge: { sourcename: "compress2_z" targetname: "zcfreeall" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:66:5" }
+node: { title: "compress2" label: "compress2\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:69:13\n40 bytes (static)" }
+edge: { sourcename: "compress2" targetname: "compress2_z" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:73:11" }
+node: { title: "compress_z" label: "compress_z\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:79:13\n32 bytes (static)" }
+edge: { sourcename: "compress_z" targetname: "compress2_z" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:81:12" }
+node: { title: "compress" label: "compress\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:84:13\n32 bytes (static)" }
+edge: { sourcename: "compress" targetname: "compress2" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:86:12" }
+node: { title: "compressBound_z" label: "compressBound_z\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:93:18\n24 bytes (static)" }
+node: { title: "compressBound" label: "compressBound\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:98:15\n24 bytes (static)" }
+edge: { sourcename: "compressBound" targetname: "compressBound_z" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:99:22" }
+}

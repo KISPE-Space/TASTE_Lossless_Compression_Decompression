@@ -1,0 +1,5 @@
+/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c:17:6:uartotherend_RI_samrh71rx	16	static
+/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c:26:6:uartotherend_RI_samrh71rx_To_PID	24	static
+/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c:62:6:uartotherend_RI_get_sender	16	static
+/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c:68:6:uartotherend_RI_get_last_error	16	static
+/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c:73:6:uartotherend_get_last_error	16	static

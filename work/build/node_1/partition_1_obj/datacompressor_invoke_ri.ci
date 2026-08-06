@@ -1,0 +1,5 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_invoke_ri.c"
+node: { title: "datacompressor_RI_get_sender" label: "datacompressor_RI_get_sender\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_invoke_ri.c:8:6\n16 bytes (static)" }
+node: { title: "datacompressor_get_sender" label: "datacompressor_get_sender\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_invoke_ri.c:10:15" shape : ellipse }
+edge: { sourcename: "datacompressor_RI_get_sender" targetname: "datacompressor_get_sender" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_invoke_ri.c:11:3" }
+}

@@ -1,0 +1,17 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/uncompr.c"
+node: { title: "uncompress2_z" label: "uncompress2_z\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/uncompr.c:29:13\n96 bytes (static)" }
+node: { title: "inflateInit_" label: "inflateInit_\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/zlib.h:1905:21" shape : ellipse }
+edge: { sourcename: "uncompress2_z" targetname: "inflateInit_" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/uncompr.c:51:11" }
+node: { title: "inflate" label: "inflate\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/zlib.h:405:21" shape : ellipse }
+edge: { sourcename: "uncompress2_z" targetname: "inflate" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/uncompr.c:66:15" }
+node: { title: "inflateEnd" label: "inflateEnd\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/zlib.h:525:21" shape : ellipse }
+edge: { sourcename: "uncompress2_z" targetname: "inflateEnd" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/uncompr.c:77:5" }
+node: { title: "zcfreeall" label: "zcfreeall\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/uncompr.c:78:5" shape : ellipse }
+edge: { sourcename: "uncompress2_z" targetname: "zcfreeall" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/uncompr.c:78:5" }
+node: { title: "uncompress2" label: "uncompress2\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/uncompr.c:84:13\n40 bytes (static)" }
+edge: { sourcename: "uncompress2" targetname: "uncompress2_z" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/uncompr.c:88:11" }
+node: { title: "uncompress_z" label: "uncompress_z\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/uncompr.c:93:13\n32 bytes (static)" }
+edge: { sourcename: "uncompress_z" targetname: "uncompress2_z" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/uncompr.c:96:12" }
+node: { title: "uncompress" label: "uncompress\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/uncompr.c:98:13\n32 bytes (static)" }
+edge: { sourcename: "uncompress" targetname: "uncompress2" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/uncompr.c:101:12" }
+}

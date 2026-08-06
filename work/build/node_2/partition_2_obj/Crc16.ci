@@ -1,0 +1,5 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Packetizer/Crc16.c"
+node: { title: "/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Packetizer/Crc16.c:crc16" label: "crc16\n/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Packetizer/Crc16.c:26:1\n16 bytes (static)" }
+node: { title: "calculateCrc16" label: "calculateCrc16\n/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Packetizer/Crc16.c:69:1\n24 bytes (static)" }
+edge: { sourcename: "calculateCrc16" targetname: "/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Packetizer/Crc16.c:crc16" label: "/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Packetizer/Crc16.c:74:15" }
+}

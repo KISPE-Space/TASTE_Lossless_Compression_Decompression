@@ -1,0 +1,5 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Escaper/Escaper.c:29:1:Escaper_init	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Escaper/Escaper.c:47:1:Escaper_start_decoder	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Escaper/Escaper.c:53:1:Escaper_decode_packet	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Escaper/Escaper.c:110:1:Escaper_start_encoder	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/Escaper/Escaper.c:118:1:Escaper_encode_packet	32	static

@@ -1,0 +1,10 @@
+/home/taste/work/work/data-compress-git-out/work/build/DriversConfig/samrh71-rtems-serial-driver.c:12:6:Serial_SamRH71_Rtems_Device_T_IsConstraintValid	24	static
+/home/taste/work/work/data-compress-git-out/work/build/DriversConfig/samrh71-rtems-serial-driver.c:21:6:Serial_SamRH71_Rtems_Device_T_Initialize	16	static
+/home/taste/work/work/data-compress-git-out/work/build/DriversConfig/samrh71-rtems-serial-driver.c:30:6:Serial_SamRH71_Rtems_Baudrate_T_IsConstraintValid	24	static
+/home/taste/work/work/data-compress-git-out/work/build/DriversConfig/samrh71-rtems-serial-driver.c:39:6:Serial_SamRH71_Rtems_Baudrate_T_Initialize	16	static
+/home/taste/work/work/data-compress-git-out/work/build/DriversConfig/samrh71-rtems-serial-driver.c:48:6:Serial_SamRH71_Rtems_Parity_T_IsConstraintValid	24	static
+/home/taste/work/work/data-compress-git-out/work/build/DriversConfig/samrh71-rtems-serial-driver.c:57:6:Serial_SamRH71_Rtems_Parity_T_Initialize	16	static
+/home/taste/work/work/data-compress-git-out/work/build/DriversConfig/samrh71-rtems-serial-driver.c:66:6:Serial_SamRH71_Rtems_Transmit_Mode_T_IsConstraintValid	24	static
+/home/taste/work/work/data-compress-git-out/work/build/DriversConfig/samrh71-rtems-serial-driver.c:75:6:Serial_SamRH71_Rtems_Transmit_Mode_T_Initialize	16	static
+/home/taste/work/work/data-compress-git-out/work/build/DriversConfig/samrh71-rtems-serial-driver.c:84:6:Serial_SamRH71_Rtems_Conf_T_IsConstraintValid	24	static
+/home/taste/work/work/data-compress-git-out/work/build/DriversConfig/samrh71-rtems-serial-driver.c:103:6:Serial_SamRH71_Rtems_Conf_T_Initialize	16	static

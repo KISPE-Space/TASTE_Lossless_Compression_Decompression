@@ -1,0 +1,35 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c"
+node: { title: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:byte_swap" label: "byte_swap\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:121:16\n16 bytes (static)" }
+node: { title: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:multmodp" label: "multmodp\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:163:13\n24 bytes (static)" }
+node: { title: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:x2nmodp" label: "x2nmodp\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:184:13\n40 bytes (static)" }
+edge: { sourcename: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:x2nmodp" targetname: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:multmodp" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:190:17" }
+node: { title: "get_crc_table" label: "get_crc_table\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:482:29\n4 bytes (static)" }
+node: { title: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:crc_word" label: "crc_word\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:608:15\n24 bytes (static)" }
+node: { title: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:crc_word_big" label: "crc_word_big\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:615:16\n24 bytes (static)" }
+node: { title: "crc32_z" label: "crc32_z\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:626:15\n128 bytes (static)" }
+edge: { sourcename: "crc32_z" targetname: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:crc_word" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:772:19" }
+edge: { sourcename: "crc32_z" targetname: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:crc_word" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:774:19" }
+edge: { sourcename: "crc32_z" targetname: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:crc_word" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:776:19" }
+edge: { sourcename: "crc32_z" targetname: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:crc_word" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:778:19" }
+edge: { sourcename: "crc32_z" targetname: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:crc_word" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:780:19" }
+edge: { sourcename: "crc32_z" targetname: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:byte_swap" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:811:20" }
+edge: { sourcename: "crc32_z" targetname: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:crc_word_big" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:894:20" }
+edge: { sourcename: "crc32_z" targetname: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:crc_word_big" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:896:20" }
+edge: { sourcename: "crc32_z" targetname: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:crc_word_big" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:898:20" }
+edge: { sourcename: "crc32_z" targetname: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:crc_word_big" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:900:20" }
+edge: { sourcename: "crc32_z" targetname: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:crc_word_big" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:902:20" }
+edge: { sourcename: "crc32_z" targetname: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:byte_swap" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:911:19" }
+node: { title: "crc32" label: "crc32\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:946:15\n24 bytes (static)" }
+edge: { sourcename: "crc32" targetname: "crc32_z" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:950:12" }
+node: { title: "crc32_combine_gen64" label: "crc32_combine_gen64\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:954:15\n16 bytes (static)" }
+edge: { sourcename: "crc32_combine_gen64" targetname: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:x2nmodp" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:960:12" }
+node: { title: "crc32_combine_gen" label: "crc32_combine_gen\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:964:15\n16 bytes (static)" }
+edge: { sourcename: "crc32_combine_gen" targetname: "crc32_combine_gen64" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:965:12" }
+node: { title: "crc32_combine_op" label: "crc32_combine_op\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:969:15\n24 bytes (static)" }
+edge: { sourcename: "crc32_combine_op" targetname: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:multmodp" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:972:12" }
+node: { title: "crc32_combine64" label: "crc32_combine64\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:976:15\n24 bytes (static)" }
+edge: { sourcename: "crc32_combine64" targetname: "crc32_combine_gen64" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:977:12" }
+edge: { sourcename: "crc32_combine64" targetname: "crc32_combine_op" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:977:12" }
+node: { title: "crc32_combine" label: "crc32_combine\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:981:15\n24 bytes (static)" }
+edge: { sourcename: "crc32_combine" targetname: "crc32_combine64" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:982:12" }
+}

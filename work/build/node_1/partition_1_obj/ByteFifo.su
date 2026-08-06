@@ -1,0 +1,7 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/ByteFifo.h:110:1:ByteFifo_isFull	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/ByteFifo.h:120:1:ByteFifo_isEmpty	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/ByteFifo.c:29:1:ByteFifo_init	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/ByteFifo.c:42:1:ByteFifo_initFromBytes	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/ByteFifo.c:55:1:ByteFifo_getCount	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/ByteFifo.c:70:1:ByteFifo_push	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/ByteFifo.c:87:1:ByteFifo_pull	16	static

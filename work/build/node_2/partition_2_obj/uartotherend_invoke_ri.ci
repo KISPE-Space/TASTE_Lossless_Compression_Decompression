@@ -1,0 +1,15 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c"
+node: { title: "uartotherend_RI_samrh71rx" label: "uartotherend_RI_samrh71rx\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c:17:6\n16 bytes (static)" }
+edge: { sourcename: "uartotherend_RI_samrh71rx" targetname: "uartotherend_RI_samrh71rx_To_PID" label: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c:22:4" }
+node: { title: "uartotherend_RI_samrh71rx_To_PID" label: "uartotherend_RI_samrh71rx_To_PID\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c:26:6\n24 bytes (static)" }
+node: { title: "Encode_ACN_T_UInt8" label: "Encode_ACN_T_UInt8\n/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/C_ASN1_Types.h:131:8" shape : ellipse }
+edge: { sourcename: "uartotherend_RI_samrh71rx_To_PID" targetname: "Encode_ACN_T_UInt8" label: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c:35:7" }
+node: { title: "vm_uartotherend_samrh71rx" label: "vm_uartotherend_samrh71rx\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c:48:16" shape : ellipse }
+edge: { sourcename: "uartotherend_RI_samrh71rx_To_PID" targetname: "vm_uartotherend_samrh71rx" label: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c:52:4" }
+node: { title: "uartotherend_RI_get_sender" label: "uartotherend_RI_get_sender\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c:62:6\n16 bytes (static)" }
+node: { title: "uartotherend_get_sender" label: "uartotherend_get_sender\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c:64:15" shape : ellipse }
+edge: { sourcename: "uartotherend_RI_get_sender" targetname: "uartotherend_get_sender" label: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c:65:3" }
+node: { title: "uartotherend_RI_get_last_error" label: "uartotherend_RI_get_last_error\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c:68:6\n16 bytes (static)" }
+node: { title: "uartotherend_get_last_error" label: "uartotherend_get_last_error\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c:73:6\n16 bytes (static)" }
+edge: { sourcename: "uartotherend_get_last_error" targetname: "uartotherend_RI_get_last_error" label: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_invoke_ri.c:75:5" }
+}

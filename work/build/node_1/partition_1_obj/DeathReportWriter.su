@@ -1,0 +1,5 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/FaultHandler/DeathReportWriter.c:31:1:save_stack	40	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/FaultHandler/DeathReportWriter.c:55:17:calculate_crc	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/FaultHandler/DeathReportWriter.c:72:17:calculate_report_crc	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/FaultHandler/DeathReportWriter.c:82:6:DeathReportWriter_Init	4	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/FaultHandler/DeathReportWriter.c:87:6:DeathReportWriter_GenerateDeathReport	16	static

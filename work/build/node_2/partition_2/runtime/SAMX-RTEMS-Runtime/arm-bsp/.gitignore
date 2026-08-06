@@ -1,0 +1,6 @@
+.ninja*
+CMakeCache.txt
+CMakeFiles/
+Makefile
+build.ninja
+cmake_install.cmake

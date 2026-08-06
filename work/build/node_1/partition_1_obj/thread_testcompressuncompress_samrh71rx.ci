@@ -1,0 +1,9 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/thread_testcompressuncompress_samrh71rx.c"
+node: { title: "testcompressuncompress_samrh71rx_job" label: "testcompressuncompress_samrh71rx_job\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/thread_testcompressuncompress_samrh71rx.c:13:12\n80 bytes (static)" }
+node: { title: "memset" label: "__builtin_memset\n<built-in>" shape : ellipse }
+edge: { sourcename: "testcompressuncompress_samrh71rx_job" targetname: "memset" }
+node: { title: "rtems_message_queue_receive" label: "rtems_message_queue_receive\n/opt/taste-rtems-qdp-arm/arm-rtems6/n7sbsp-samrh71f20/lib/include/rtems/rtems/message.h:809:19" shape : ellipse }
+edge: { sourcename: "testcompressuncompress_samrh71rx_job" targetname: "rtems_message_queue_receive" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/thread_testcompressuncompress_samrh71rx.c:20:36" }
+node: { title: "ThreadsCommon_ProcessRequest" label: "ThreadsCommon_ProcessRequest\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/ThreadsCommon/ThreadsCommon.h:76:6" shape : ellipse }
+edge: { sourcename: "testcompressuncompress_samrh71rx_job" targetname: "ThreadsCommon_ProcessRequest" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/thread_testcompressuncompress_samrh71rx.c:30:13" }
+}

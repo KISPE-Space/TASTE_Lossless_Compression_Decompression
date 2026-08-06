@@ -1,0 +1,8 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zutil.c"
+node: { title: "zlibVersion" label: "zlibVersion\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zutil.c:27:22\n4 bytes (static)" }
+node: { title: "zlibCompileFlags" label: "zlibCompileFlags\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zutil.c:31:15\n16 bytes (static)" }
+node: { title: "zError" label: "zError\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zutil.c:139:22\n16 bytes (static)" }
+node: { title: "zcalloc" label: "zcalloc\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zutil.c:323:22\n40 bytes (static)" }
+node: { title: "zcfree" label: "zcfree\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zutil.c:347:20\n16 bytes (static)" }
+node: { title: "zcfreeall" label: "zcfreeall\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/zutil.c:360:6\n4 bytes (static)" }
+}

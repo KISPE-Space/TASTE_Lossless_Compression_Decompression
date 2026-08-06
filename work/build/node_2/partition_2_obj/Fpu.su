@@ -1,0 +1,15 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/Bits.h:121:1:shiftValueLeft	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/Bits.h:132:1:shiftBitLeft	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Fpu/Fpu.c:38:1:Fpu_startup	40	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Fpu/Fpu.c:90:1:Fpu_shutdown	40	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Fpu/Fpu.c:107:1:Fpu_init	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Fpu/Fpu.c:117:1:Fpu_setConfig	40	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Fpu/Fpu.c:148:1:Fpu_getConfig	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Fpu/Fpu.c:174:1:Fpu_getFeatures	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Fpu/Fpu.c:244:1:Fpu_getStatus	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Fpu/Fpu.c:263:1:getFpscr	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Fpu/Fpu.c:272:1:setFpscr	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Fpu/Fpu.c:281:1:Fpu_setContextConfig	40	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Fpu/Fpu.c:299:1:Fpu_getContextConfig	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Fpu/Fpu.c:315:1:Fpu_getContextState	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Fpu/Fpu.c:340:1:Fpu_clearExceptions	16	static

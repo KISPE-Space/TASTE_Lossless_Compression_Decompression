@@ -1,0 +1,7 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/device_provided_packetizer.c:10:6:resetDeviceProvidedPacketizerFunctions	4	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/device_provided_packetizer.c:19:1:getDeviceProvidedPacketizerHeaderSize	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/device_provided_packetizer.c:29:1:getDeviceProvidedPacketizerInitFunction	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/device_provided_packetizer.c:39:1:getDeviceProvidedPacketizerPacketizeFunction	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/device_provided_packetizer.c:49:1:getDeviceProvidedPacketizerDepacketizeFunction	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/device_provided_packetizer.c:59:1:setDeviceProvidedPacketizerHeaderSize	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/device_provided_packetizer.c:69:1:setDeviceProvidedPacketizerFunctions	24	static

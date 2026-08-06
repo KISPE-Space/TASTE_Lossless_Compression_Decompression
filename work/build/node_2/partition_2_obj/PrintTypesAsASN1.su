@@ -1,0 +1,12 @@
+/home/taste/work/work/data-compress-git-out/work/dataview/C/PrintTypesAsASN1.c:14:6:PrintASN1MyInteger	16	static
+/home/taste/work/work/data-compress-git-out/work/dataview/C/PrintTypesAsASN1.c:35:6:PrintASN1CompressorDataBuffer	16	static
+/home/taste/work/work/data-compress-git-out/work/dataview/C/PrintTypesAsASN1.c:59:6:PrintASN1CompressorState	16	static
+/home/taste/work/work/data-compress-git-out/work/dataview/C/PrintTypesAsASN1.c:97:6:PrintASN1T_Int32	16	static
+/home/taste/work/work/data-compress-git-out/work/dataview/C/PrintTypesAsASN1.c:118:6:PrintASN1T_UInt32	16	static
+/home/taste/work/work/data-compress-git-out/work/dataview/C/PrintTypesAsASN1.c:139:6:PrintASN1T_Runtime_Error	16	static
+/home/taste/work/work/data-compress-git-out/work/dataview/C/PrintTypesAsASN1.c:179:6:PrintASN1T_Int8	16	static
+/home/taste/work/work/data-compress-git-out/work/dataview/C/PrintTypesAsASN1.c:200:6:PrintASN1T_UInt8	16	static
+/home/taste/work/work/data-compress-git-out/work/dataview/C/PrintTypesAsASN1.c:221:6:PrintASN1T_Boolean	16	static
+/home/taste/work/work/data-compress-git-out/work/dataview/C/PrintTypesAsASN1.c:238:6:PrintASN1T_Null_Record	16	static
+/home/taste/work/work/data-compress-git-out/work/dataview/C/PrintTypesAsASN1.c:256:6:PrintASN1PID_Range	16	static
+/home/taste/work/work/data-compress-git-out/work/dataview/C/PrintTypesAsASN1.c:277:6:PrintASN1PID	16	static

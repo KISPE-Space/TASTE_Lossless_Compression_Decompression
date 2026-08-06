@@ -1,0 +1,10 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/BrokerLock/BrokerLock.c"
+node: { title: "Broker_acquire_lock" label: "Broker_acquire_lock\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/BrokerLock/BrokerLock.c:28:6\n16 bytes (static)" }
+node: { title: "rtems_semaphore_obtain" label: "rtems_semaphore_obtain\n/opt/taste-rtems-qdp-arm/arm-rtems6/n7sbsp-samrh71f20/lib/include/rtems/rtems/sem.h:552:19" shape : ellipse }
+edge: { sourcename: "Broker_acquire_lock" targetname: "rtems_semaphore_obtain" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/BrokerLock/BrokerLock.c:30:35" }
+node: { title: "__assert_func" label: "__assert_func\n/opt/taste-rtems-qdp-arm/arm-rtems6/include/assert.h:41:6" shape : ellipse }
+edge: { sourcename: "Broker_acquire_lock" targetname: "__assert_func" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/BrokerLock/BrokerLock.c:32:2" }
+node: { title: "Broker_release_lock" label: "Broker_release_lock\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/BrokerLock/BrokerLock.c:35:6\n8 bytes (static)" }
+node: { title: "rtems_semaphore_release" label: "rtems_semaphore_release\n/opt/taste-rtems-qdp-arm/arm-rtems6/n7sbsp-samrh71f20/lib/include/rtems/rtems/sem.h:628:19" shape : ellipse }
+edge: { sourcename: "Broker_release_lock" targetname: "rtems_semaphore_release" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/BrokerLock/BrokerLock.c:37:2" }
+}

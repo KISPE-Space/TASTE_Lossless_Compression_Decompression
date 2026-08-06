@@ -1,0 +1,14 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c"
+node: { title: "datacompressor_clearbuffer_get_sender" label: "datacompressor_clearbuffer_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:15:12\n8 bytes (static)" }
+node: { title: "datacompressor_readdata_get_sender" label: "datacompressor_readdata_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:21:12\n8 bytes (static)" }
+node: { title: "datacompressor_startcompression_get_sender" label: "datacompressor_startcompression_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:27:12\n8 bytes (static)" }
+node: { title: "datacompressor_status_get_sender" label: "datacompressor_status_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:33:12\n8 bytes (static)" }
+node: { title: "datacompressor_writebuffer_get_sender" label: "datacompressor_writebuffer_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:39:12\n8 bytes (static)" }
+node: { title: "datauncompressor_clearbuffer_get_sender" label: "datauncompressor_clearbuffer_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:51:12\n8 bytes (static)" }
+node: { title: "datauncompressor_readdata_get_sender" label: "datauncompressor_readdata_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:57:12\n8 bytes (static)" }
+node: { title: "datauncompressor_startuncompression_get_sender" label: "datauncompressor_startuncompression_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:63:12\n8 bytes (static)" }
+node: { title: "datauncompressor_status_get_sender" label: "datauncompressor_status_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:69:12\n8 bytes (static)" }
+node: { title: "datauncompressor_writebuffer_get_sender" label: "datauncompressor_writebuffer_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:75:12\n8 bytes (static)" }
+node: { title: "testcompressuncompress_runonce_get_sender" label: "testcompressuncompress_runonce_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:323:12\n8 bytes (static)" }
+node: { title: "testcompressuncompress_samrh71rx_get_sender" label: "testcompressuncompress_samrh71rx_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.c:329:12\n8 bytes (static)" }
+}

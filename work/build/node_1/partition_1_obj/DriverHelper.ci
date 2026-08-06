@@ -1,0 +1,5 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/RuntimeCommon/DriverHelper.c"
+node: { title: "get_device_configuration" label: "get_device_configuration\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/RuntimeCommon/DriverHelper.c:26:1\n16 bytes (static)" }
+node: { title: "get_remote_device_configuration" label: "get_remote_device_configuration\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/RuntimeCommon/DriverHelper.c:36:1\n24 bytes (static)" }
+node: { title: "get_device_packetizer_cfg" label: "get_device_packetizer_cfg\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/RuntimeCommon/DriverHelper.c:52:1\n16 bytes (static)" }
+}

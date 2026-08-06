@@ -1,0 +1,28 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c"
+node: { title: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:Broker_packetizer_error_to_broker_error" label: "Broker_packetizer_error_to_broker_error\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:57:1\n16 bytes (static)" }
+node: { title: "Broker_initialize_packetizers_functions" label: "Broker_initialize_packetizers_functions\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:75:1\n4 bytes (static)" }
+node: { title: "Broker_initialize" label: "Broker_initialize\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:104:1\n40 bytes (static)" }
+edge: { sourcename: "Broker_initialize" targetname: "Broker_initialize_packetizers_functions" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:107:5" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "Broker_initialize" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:124:13" }
+node: { title: "Broker_deliver_request" label: "Broker_deliver_request\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:131:1\n80 bytes (static)" }
+node: { title: "Broker_acquire_lock" label: "Broker_acquire_lock\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:53:13" shape : ellipse }
+edge: { sourcename: "Broker_deliver_request" targetname: "Broker_acquire_lock" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:140:5" }
+node: { title: "getDeviceProvidedPacketizerHeaderSize" label: "getDeviceProvidedPacketizerHeaderSize\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/device_provided_packetizer.h:13:8" shape : ellipse }
+edge: { sourcename: "Broker_deliver_request" targetname: "getDeviceProvidedPacketizerHeaderSize" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:155:23" }
+node: { title: "memcpy" label: "memcpy\n/opt/taste-rtems-qdp-arm/arm-rtems6/include/string.h:31:9" shape : ellipse }
+edge: { sourcename: "Broker_deliver_request" targetname: "memcpy" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:160:5" }
+edge: { sourcename: "Broker_deliver_request" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:165:32" }
+edge: { sourcename: "Broker_deliver_request" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:186:5" }
+node: { title: "Broker_release_lock" label: "Broker_release_lock\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:54:13" shape : ellipse }
+edge: { sourcename: "Broker_deliver_request" targetname: "Broker_release_lock" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:188:5" }
+node: { title: "Broker_receive_packet" label: "Broker_receive_packet\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:192:1\n96 bytes (static)" }
+edge: { sourcename: "Broker_receive_packet" targetname: "Broker_acquire_lock" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:194:5" }
+edge: { sourcename: "Broker_receive_packet" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:211:26" }
+edge: { sourcename: "Broker_receive_packet" targetname: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:Broker_packetizer_error_to_broker_error" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:223:45" }
+edge: { sourcename: "Broker_receive_packet" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:224:13" }
+edge: { sourcename: "Broker_receive_packet" targetname: "Broker_release_lock" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:226:9" }
+edge: { sourcename: "Broker_receive_packet" targetname: "__indirect_call" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:233:5" }
+edge: { sourcename: "Broker_receive_packet" targetname: "Broker_release_lock" label: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:238:5" }
+node: { title: "Broker_register_error_callback" label: "Broker_register_error_callback\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:242:1\n16 bytes (static)" }
+}

@@ -1,0 +1,12 @@
+/opt/taste-rtems-qdp-arm/arm-rtems6/n7sbsp-samrh71f20/lib/include/rtems/fatal.h:155:36:rtems_fatal	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/main.c:62:13:initialize_devices	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/main.c:84:13:initialize_interface_to_queue_map	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/main.c:100:12:generate_new_partition_task_name	4	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/main.c:106:12:generate_new_partition_queue_name	4	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/main.c:112:12:generate_new_partition_semaphore_name	4	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/main.c:118:12:generate_new_partition_timer_name	4	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/main.c:136:13:Create_Thread_uartotherend_samrh71tx	80	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/main.c:186:13:Start_Thread_uartotherend_samrh71tx	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/main.c:194:12:Init	40	static
+/opt/taste-rtems-qdp-arm/arm-rtems6/include/stdlib.h:69:6:abort	8	static
+/opt/taste-rtems-qdp-arm/arm-rtems6/include/assert.h:41:6:__assert_func	24	static

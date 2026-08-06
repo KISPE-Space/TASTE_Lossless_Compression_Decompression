@@ -1,0 +1,31 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c"
+node: { title: "datacompressor_get_sender" label: "datacompressor_get_sender\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:11:6\n16 bytes (static)" }
+node: { title: "init_datacompressor" label: "init_datacompressor\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:21:6\n8 bytes (static)" }
+node: { title: "datacompressor_startup" label: "datacompressor_startup\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:26:19" shape : ellipse }
+edge: { sourcename: "init_datacompressor" targetname: "datacompressor_startup" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:27:7" }
+node: { title: "datacompressor_ClearBuffer" label: "datacompressor_ClearBuffer\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:31:6\n8 bytes (static)" }
+node: { title: "datacompressor_clearbuffer_get_sender" label: "datacompressor_clearbuffer_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.h:30:12" shape : ellipse }
+edge: { sourcename: "datacompressor_ClearBuffer" targetname: "datacompressor_clearbuffer_get_sender" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:33:17" }
+node: { title: "datacompressor_PI_ClearBuffer" label: "datacompressor_PI_ClearBuffer\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:36:16" shape : ellipse }
+edge: { sourcename: "datacompressor_ClearBuffer" targetname: "datacompressor_PI_ClearBuffer" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:37:4" }
+node: { title: "datacompressor_ReadData" label: "datacompressor_ReadData\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:44:6\n24 bytes (static)" }
+node: { title: "datacompressor_readdata_get_sender" label: "datacompressor_readdata_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.h:36:12" shape : ellipse }
+edge: { sourcename: "datacompressor_ReadData" targetname: "datacompressor_readdata_get_sender" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:51:17" }
+node: { title: "datacompressor_PI_ReadData" label: "datacompressor_PI_ReadData\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:54:16" shape : ellipse }
+edge: { sourcename: "datacompressor_ReadData" targetname: "datacompressor_PI_ReadData" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:65:4" }
+node: { title: "datacompressor_StartCompression" label: "datacompressor_StartCompression\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:72:6\n8 bytes (static)" }
+node: { title: "datacompressor_startcompression_get_sender" label: "datacompressor_startcompression_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.h:42:12" shape : ellipse }
+edge: { sourcename: "datacompressor_StartCompression" targetname: "datacompressor_startcompression_get_sender" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:74:17" }
+node: { title: "datacompressor_PI_StartCompression" label: "datacompressor_PI_StartCompression\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:77:16" shape : ellipse }
+edge: { sourcename: "datacompressor_StartCompression" targetname: "datacompressor_PI_StartCompression" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:78:4" }
+node: { title: "datacompressor_Status" label: "datacompressor_Status\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:85:6\n24 bytes (static)" }
+node: { title: "datacompressor_status_get_sender" label: "datacompressor_status_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.h:48:12" shape : ellipse }
+edge: { sourcename: "datacompressor_Status" targetname: "datacompressor_status_get_sender" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:90:17" }
+node: { title: "datacompressor_PI_Status" label: "datacompressor_PI_Status\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:93:16" shape : ellipse }
+edge: { sourcename: "datacompressor_Status" targetname: "datacompressor_PI_Status" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:102:4" }
+node: { title: "datacompressor_WriteBuffer" label: "datacompressor_WriteBuffer\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:109:6\n24 bytes (static)" }
+node: { title: "datacompressor_writebuffer_get_sender" label: "datacompressor_writebuffer_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.h:54:12" shape : ellipse }
+edge: { sourcename: "datacompressor_WriteBuffer" targetname: "datacompressor_writebuffer_get_sender" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:114:17" }
+node: { title: "datacompressor_PI_WriteBuffer" label: "datacompressor_PI_WriteBuffer\n/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:117:16" shape : ellipse }
+edge: { sourcename: "datacompressor_WriteBuffer" targetname: "datacompressor_PI_WriteBuffer" label: "/home/taste/work/work/data-compress-git-out/work/datacompressor/C/wrappers/datacompressor_vm_if.c:126:4" }
+}

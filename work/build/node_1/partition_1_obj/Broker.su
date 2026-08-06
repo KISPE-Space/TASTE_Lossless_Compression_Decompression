@@ -1,0 +1,6 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:57:1:Broker_packetizer_error_to_broker_error	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:75:1:Broker_initialize_packetizers_functions	4	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:104:1:Broker_initialize	40	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:131:1:Broker_deliver_request	80	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:192:1:Broker_receive_packet	96	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Broker/Broker.c:242:1:Broker_register_error_callback	16	static

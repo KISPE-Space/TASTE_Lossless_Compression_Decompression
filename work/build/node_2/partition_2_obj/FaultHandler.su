@@ -1,0 +1,6 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Scb/Scb.h:79:1:Scb_isDCacheEnabled	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Scb/Scb.h:187:1:Scb_cleanDCache	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Scb/Scb.h:228:1:Scb_invalidateDCache	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/src/FaultHandler/FaultHandler.c:31:32:Fault_HandlerTail	8	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/src/FaultHandler/FaultHandler.c:42:41:Fault_Handler	0	static
+/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/src/FaultHandler/FaultHandler.c:182:6:FaultHandler_Init	8	static

@@ -1,0 +1,7 @@
+/home/taste/work/work/data-compress-git-out/work/dataview/C/dataview-uniq.c: In function 'asn1SccT_Int32_IsConstraintValid':
+/home/taste/work/work/data-compress-git-out/work/dataview/C/dataview-uniq.c:372:27: warning: comparison is always true due to limited range of data type [-Wtype-limits]
+  372 |     ret = ((-2147483648LL <= (*(pVal))) && ((*(pVal)) <= 2147483647LL));
+      |                           ^~
+/home/taste/work/work/data-compress-git-out/work/dataview/C/dataview-uniq.c:372:55: warning: comparison is always true due to limited range of data type [-Wtype-limits]
+  372 |     ret = ((-2147483648LL <= (*(pVal))) && ((*(pVal)) <= 2147483647LL));
+      |                                                       ^~

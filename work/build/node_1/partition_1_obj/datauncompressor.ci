@@ -1,0 +1,11 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/datauncompressor.c"
+node: { title: "datauncompressor_startup" label: "datauncompressor_startup\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/datauncompressor.c:43:6\n8 bytes (static)" }
+edge: { sourcename: "datauncompressor_startup" targetname: "datauncompressor_PI_ClearBuffer" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/datauncompressor.c:45:5" }
+node: { title: "datauncompressor_PI_ClearBuffer" label: "datauncompressor_PI_ClearBuffer\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/datauncompressor.c:49:6\n4 bytes (static)" }
+node: { title: "datauncompressor_PI_WriteBuffer" label: "datauncompressor_PI_WriteBuffer\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/datauncompressor.c:58:6\n24 bytes (static)" }
+node: { title: "datauncompressor_PI_StartUncompression" label: "datauncompressor_PI_StartUncompression\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/datauncompressor.c:75:6\n16 bytes (static)" }
+node: { title: "uncompress" label: "uncompress\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/zlib.h:1315:21" shape : ellipse }
+edge: { sourcename: "datauncompressor_PI_StartUncompression" targetname: "uncompress" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/datauncompressor.c:92:18" }
+node: { title: "datauncompressor_PI_Status" label: "datauncompressor_PI_Status\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/datauncompressor.c:112:6\n16 bytes (static)" }
+node: { title: "datauncompressor_PI_ReadData" label: "datauncompressor_PI_ReadData\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/src/datauncompressor.c:121:6\n32 bytes (static)" }
+}

@@ -1,0 +1,4 @@
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c: In function 'compress2_z':
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/compress.c:66:5: warning: implicit declaration of function 'zcfreeall' [-Wimplicit-function-declaration]
+   66 |     zcfreeall();
+      |     ^~~~~~~~~

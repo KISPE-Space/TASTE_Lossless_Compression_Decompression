@@ -1,0 +1,13 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_vm_if.c"
+node: { title: "uartotherend_get_sender" label: "uartotherend_get_sender\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_vm_if.c:11:6\n16 bytes (static)" }
+node: { title: "init_uartotherend" label: "init_uartotherend\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_vm_if.c:21:6\n8 bytes (static)" }
+node: { title: "CInituartotherend" label: "CInituartotherend\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_vm_if.c:18:13" shape : ellipse }
+edge: { sourcename: "init_uartotherend" targetname: "CInituartotherend" label: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_vm_if.c:26:7" }
+node: { title: "uartotherend_samrh71tx" label: "uartotherend_samrh71tx\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_vm_if.c:30:6\n24 bytes (static)" }
+node: { title: "uartotherend_samrh71tx_get_sender" label: "uartotherend_samrh71tx_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/routing.h:45:12" shape : ellipse }
+edge: { sourcename: "uartotherend_samrh71tx" targetname: "uartotherend_samrh71tx_get_sender" label: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_vm_if.c:34:17" }
+node: { title: "Decode_ACN_T_UInt8" label: "Decode_ACN_T_UInt8\n/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/C_ASN1_Types.h:132:8" shape : ellipse }
+edge: { sourcename: "uartotherend_samrh71tx" targetname: "Decode_ACN_T_UInt8" label: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_vm_if.c:39:13" }
+node: { title: "uartotherend_PI_samrh71tx" label: "uartotherend_PI_samrh71tx\n/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_vm_if.c:44:16" shape : ellipse }
+edge: { sourcename: "uartotherend_samrh71tx" targetname: "uartotherend_PI_samrh71tx" label: "/home/taste/work/work/data-compress-git-out/work/uartotherend/SDL/wrappers/uartotherend_vm_if.c:52:4" }
+}

@@ -1,0 +1,5 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/src/BootHelper/BootHelper.c"
+node: { title: "BootHelper_GetResetReason" label: "BootHelper_GetResetReason\n/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/src/BootHelper/BootHelper.c:23:19\n16 bytes (static)" }
+node: { title: "Rstc_getLastResetType" label: "Rstc_getLastResetType\n/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Rstc/Rstc.h:71:16" shape : ellipse }
+edge: { sourcename: "BootHelper_GetResetReason" targetname: "Rstc_getLastResetType" label: "/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/src/BootHelper/BootHelper.c:25:36" }
+}

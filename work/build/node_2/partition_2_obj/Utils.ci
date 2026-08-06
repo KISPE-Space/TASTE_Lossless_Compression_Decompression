@@ -1,0 +1,3 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/Utils.c"
+node: { title: "busyWaitLoop" label: "busyWaitLoop\n/home/taste/work/work/data-compress-git-out/work/build/node_2/partition_2/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Utils/Utils.c:27:1\n24 bytes (static)" }
+}

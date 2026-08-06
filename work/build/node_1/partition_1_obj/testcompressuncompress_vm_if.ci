@@ -1,0 +1,20 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/wrappers/testcompressuncompress_vm_if.c"
+node: { title: "testcompressuncompress_get_sender" label: "testcompressuncompress_get_sender\n/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/wrappers/testcompressuncompress_vm_if.c:11:6\n16 bytes (static)" }
+node: { title: "init_testcompressuncompress" label: "init_testcompressuncompress\n/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/wrappers/testcompressuncompress_vm_if.c:25:6\n8 bytes (static)" }
+node: { title: "testcompressuncompress_startup" label: "testcompressuncompress_startup\n/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/wrappers/testcompressuncompress_vm_if.c:30:19" shape : ellipse }
+edge: { sourcename: "init_testcompressuncompress" targetname: "testcompressuncompress_startup" label: "/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/wrappers/testcompressuncompress_vm_if.c:31:7" }
+node: { title: "init_datacompressor" label: "init_datacompressor\n/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/wrappers/testcompressuncompress_vm_if.c:20:13" shape : ellipse }
+edge: { sourcename: "init_testcompressuncompress" targetname: "init_datacompressor" label: "/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/wrappers/testcompressuncompress_vm_if.c:35:11" }
+node: { title: "init_datauncompressor" label: "init_datauncompressor\n/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/wrappers/testcompressuncompress_vm_if.c:22:13" shape : ellipse }
+edge: { sourcename: "init_testcompressuncompress" targetname: "init_datauncompressor" label: "/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/wrappers/testcompressuncompress_vm_if.c:38:11" }
+node: { title: "testcompressuncompress_RunOnce" label: "testcompressuncompress_RunOnce\n/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/wrappers/testcompressuncompress_vm_if.c:43:6\n8 bytes (static)" }
+node: { title: "testcompressuncompress_PI_RunOnce" label: "testcompressuncompress_PI_RunOnce\n/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/wrappers/testcompressuncompress_vm_if.c:47:16" shape : ellipse }
+edge: { sourcename: "testcompressuncompress_RunOnce" targetname: "testcompressuncompress_PI_RunOnce" label: "/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/wrappers/testcompressuncompress_vm_if.c:48:4" }
+node: { title: "testcompressuncompress_samrh71rx" label: "testcompressuncompress_samrh71rx\n/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/wrappers/testcompressuncompress_vm_if.c:55:6\n24 bytes (static)" }
+node: { title: "testcompressuncompress_samrh71rx_get_sender" label: "testcompressuncompress_samrh71rx_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.h:223:12" shape : ellipse }
+edge: { sourcename: "testcompressuncompress_samrh71rx" targetname: "testcompressuncompress_samrh71rx_get_sender" label: "/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/wrappers/testcompressuncompress_vm_if.c:59:17" }
+node: { title: "Decode_ACN_T_UInt8" label: "Decode_ACN_T_UInt8\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/C_ASN1_Types.h:132:8" shape : ellipse }
+edge: { sourcename: "testcompressuncompress_samrh71rx" targetname: "Decode_ACN_T_UInt8" label: "/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/wrappers/testcompressuncompress_vm_if.c:64:13" }
+node: { title: "testcompressuncompress_PI_samrh71rx" label: "testcompressuncompress_PI_samrh71rx\n/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/wrappers/testcompressuncompress_vm_if.c:69:16" shape : ellipse }
+edge: { sourcename: "testcompressuncompress_samrh71rx" targetname: "testcompressuncompress_PI_samrh71rx" label: "/home/taste/work/work/data-compress-git-out/work/testcompressuncompress/C/wrappers/testcompressuncompress_vm_if.c:77:4" }
+}

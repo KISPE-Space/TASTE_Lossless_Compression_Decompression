@@ -1,0 +1,9 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/device_provided_packetizer.c"
+node: { title: "resetDeviceProvidedPacketizerFunctions" label: "resetDeviceProvidedPacketizerFunctions\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/device_provided_packetizer.c:10:6\n4 bytes (static)" }
+node: { title: "getDeviceProvidedPacketizerHeaderSize" label: "getDeviceProvidedPacketizerHeaderSize\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/device_provided_packetizer.c:19:1\n16 bytes (static)" }
+node: { title: "getDeviceProvidedPacketizerInitFunction" label: "getDeviceProvidedPacketizerInitFunction\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/device_provided_packetizer.c:29:1\n16 bytes (static)" }
+node: { title: "getDeviceProvidedPacketizerPacketizeFunction" label: "getDeviceProvidedPacketizerPacketizeFunction\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/device_provided_packetizer.c:39:1\n16 bytes (static)" }
+node: { title: "getDeviceProvidedPacketizerDepacketizeFunction" label: "getDeviceProvidedPacketizerDepacketizeFunction\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/device_provided_packetizer.c:49:1\n16 bytes (static)" }
+node: { title: "setDeviceProvidedPacketizerHeaderSize" label: "setDeviceProvidedPacketizerHeaderSize\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/device_provided_packetizer.c:59:1\n16 bytes (static)" }
+node: { title: "setDeviceProvidedPacketizerFunctions" label: "setDeviceProvidedPacketizerFunctions\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/device_provided_packetizer.c:69:1\n24 bytes (static)" }
+}

@@ -1,0 +1,6 @@
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/datacompressor.c:42:6:datacompressor_startup	8	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/datacompressor.c:48:6:datacompressor_PI_ClearBuffer	4	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/datacompressor.c:58:6:datacompressor_PI_WriteBuffer	24	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/datacompressor.c:75:6:datacompressor_PI_StartCompression	32	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/datacompressor.c:111:6:datacompressor_PI_Status	16	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/datacompressor.c:120:6:datacompressor_PI_ReadData	32	static

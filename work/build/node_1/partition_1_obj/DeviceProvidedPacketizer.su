@@ -1,0 +1,3 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Packetizer/DeviceProvidedPacketizer.c:26:1:DeviceProvidedPacketizer_init	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Packetizer/DeviceProvidedPacketizer.c:36:1:DeviceProvidedPacketizer_packetize	56	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/Packetizer/DeviceProvidedPacketizer.c:55:1:DeviceProvidedPacketizer_depacketize	64	static

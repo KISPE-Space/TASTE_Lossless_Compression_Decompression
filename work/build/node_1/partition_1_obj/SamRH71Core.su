@@ -1,0 +1,14 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Pmc/Pmc.h:333:1:Pmc_getDeviceRegisterStartAddress	4	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/arm-bsp/src/Matrix/Matrix.h:385:1:Matrix_getDeviceBaseAddress	4	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/SamRH71Core/SamRH71Core.c:47:17:extract_main_oscillator_frequency	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/SamRH71Core/SamRH71Core.c:84:13:apply_plla_config	104	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/SamRH71Core/SamRH71Core.c:103:13:SamRH71Core_InitMatrix	56	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/SamRH71Core/SamRH71Core.c:137:10:SamRH71Core_GetProcessorClockFrequency	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/SamRH71Core/SamRH71Core.c:656:6:SamRH71Core_Init	192	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/SamRH71Core/SamRH71Core.c:714:6:SamRH71Core_EnablePeripheralClock	24	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/SamRH71Core/SamRH71Core.c:721:10:SamRH71Core_GetMainClockFrequency	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/SamRH71Core/SamRH71Core.c:741:6:SamRH71Core_InterruptSubscribe	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/SamRH71Core/SamRH71Core.c:751:12:SamRH71Core_GenerateNewSemaphoreName	4	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/SamRH71Core/SamRH71Core.c:757:12:SamRH71Core_GenerateNewTaskName	4	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/SamRH71Core/SamRH71Core.c:763:6:SamRH71Core_SetPckConfig	32	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/SamRH71Core/SamRH71Core.c:770:6:SamRH71Core_DisableDataCacheInRegion	48	static

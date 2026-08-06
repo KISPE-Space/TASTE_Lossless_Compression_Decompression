@@ -1,0 +1,7 @@
+/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:11:6:datauncompressor_get_sender	16	static
+/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:21:6:init_datauncompressor	8	static
+/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:31:6:datauncompressor_ClearBuffer	8	static
+/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:44:6:datauncompressor_ReadData	24	static
+/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:72:6:datauncompressor_StartUncompression	8	static
+/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:85:6:datauncompressor_Status	24	static
+/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:109:6:datauncompressor_WriteBuffer	24	static

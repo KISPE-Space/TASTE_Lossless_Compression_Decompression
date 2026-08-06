@@ -1,0 +1,4 @@
+/home/taste/work/work/data-compress-git-out/work/build/DriversConfig/asn1crt.c:26:13:int2uint	24	static
+/home/taste/work/work/data-compress-git-out/work/build/DriversConfig/asn1crt.c:38:13:uint2int	32	static
+/home/taste/work/work/data-compress-git-out/work/build/DriversConfig/asn1crt.c:53:5:binarySearch	40	static
+/home/taste/work/work/data-compress-git-out/work/build/DriversConfig/asn1crt.c:68:5:linearSearch	32	static

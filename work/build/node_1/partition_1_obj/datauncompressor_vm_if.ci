@@ -1,0 +1,31 @@
+graph: { title: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c"
+node: { title: "datauncompressor_get_sender" label: "datauncompressor_get_sender\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:11:6\n16 bytes (static)" }
+node: { title: "init_datauncompressor" label: "init_datauncompressor\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:21:6\n8 bytes (static)" }
+node: { title: "datauncompressor_startup" label: "datauncompressor_startup\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:26:19" shape : ellipse }
+edge: { sourcename: "init_datauncompressor" targetname: "datauncompressor_startup" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:27:7" }
+node: { title: "datauncompressor_ClearBuffer" label: "datauncompressor_ClearBuffer\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:31:6\n8 bytes (static)" }
+node: { title: "datauncompressor_clearbuffer_get_sender" label: "datauncompressor_clearbuffer_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.h:66:12" shape : ellipse }
+edge: { sourcename: "datauncompressor_ClearBuffer" targetname: "datauncompressor_clearbuffer_get_sender" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:33:17" }
+node: { title: "datauncompressor_PI_ClearBuffer" label: "datauncompressor_PI_ClearBuffer\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:36:16" shape : ellipse }
+edge: { sourcename: "datauncompressor_ClearBuffer" targetname: "datauncompressor_PI_ClearBuffer" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:37:4" }
+node: { title: "datauncompressor_ReadData" label: "datauncompressor_ReadData\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:44:6\n24 bytes (static)" }
+node: { title: "datauncompressor_readdata_get_sender" label: "datauncompressor_readdata_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.h:72:12" shape : ellipse }
+edge: { sourcename: "datauncompressor_ReadData" targetname: "datauncompressor_readdata_get_sender" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:51:17" }
+node: { title: "datauncompressor_PI_ReadData" label: "datauncompressor_PI_ReadData\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:54:16" shape : ellipse }
+edge: { sourcename: "datauncompressor_ReadData" targetname: "datauncompressor_PI_ReadData" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:65:4" }
+node: { title: "datauncompressor_StartUncompression" label: "datauncompressor_StartUncompression\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:72:6\n8 bytes (static)" }
+node: { title: "datauncompressor_startuncompression_get_sender" label: "datauncompressor_startuncompression_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.h:78:12" shape : ellipse }
+edge: { sourcename: "datauncompressor_StartUncompression" targetname: "datauncompressor_startuncompression_get_sender" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:74:17" }
+node: { title: "datauncompressor_PI_StartUncompression" label: "datauncompressor_PI_StartUncompression\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:77:16" shape : ellipse }
+edge: { sourcename: "datauncompressor_StartUncompression" targetname: "datauncompressor_PI_StartUncompression" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:78:4" }
+node: { title: "datauncompressor_Status" label: "datauncompressor_Status\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:85:6\n24 bytes (static)" }
+node: { title: "datauncompressor_status_get_sender" label: "datauncompressor_status_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.h:84:12" shape : ellipse }
+edge: { sourcename: "datauncompressor_Status" targetname: "datauncompressor_status_get_sender" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:90:17" }
+node: { title: "datauncompressor_PI_Status" label: "datauncompressor_PI_Status\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:93:16" shape : ellipse }
+edge: { sourcename: "datauncompressor_Status" targetname: "datauncompressor_PI_Status" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:102:4" }
+node: { title: "datauncompressor_WriteBuffer" label: "datauncompressor_WriteBuffer\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:109:6\n24 bytes (static)" }
+node: { title: "datauncompressor_writebuffer_get_sender" label: "datauncompressor_writebuffer_get_sender\n/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/routing.h:90:12" shape : ellipse }
+edge: { sourcename: "datauncompressor_WriteBuffer" targetname: "datauncompressor_writebuffer_get_sender" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:114:17" }
+node: { title: "datauncompressor_PI_WriteBuffer" label: "datauncompressor_PI_WriteBuffer\n/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:117:16" shape : ellipse }
+edge: { sourcename: "datauncompressor_WriteBuffer" targetname: "datauncompressor_PI_WriteBuffer" label: "/home/taste/work/work/data-compress-git-out/work/datauncompressor/C/wrappers/datauncompressor_vm_if.c:126:4" }
+}

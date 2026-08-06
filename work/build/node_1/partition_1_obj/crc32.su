@@ -1,0 +1,13 @@
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:121:16:byte_swap	16	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:163:13:multmodp	24	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:184:13:x2nmodp	40	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:482:29:get_crc_table	4	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:608:15:crc_word	24	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:615:16:crc_word_big	24	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:626:15:crc32_z	128	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:946:15:crc32	24	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:954:15:crc32_combine_gen64	16	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:964:15:crc32_combine_gen	16	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:969:15:crc32_combine_op	24	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:976:15:crc32_combine64	24	static
+/home/taste/work/work/data-compress-git-out/work/datacompressor/C/src/crc32.c:981:15:crc32_combine	24	static

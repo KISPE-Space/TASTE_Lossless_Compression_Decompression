@@ -48,12 +48,12 @@ Bus : bus_1
   |_ Package    : ocarina_buses
   |_ Classifier : ocarina_buses::serial.ccsds
 Connection on bus : bus_1
-  |_ Source Function : TestCompressUncompress
-  |_ Source Port : TestCompressUncompress_samrh71tx_UartOtherEnd_samrh71tx
-  |_ Dest Function : UartOtherEnd
-  |_ Dest Port   : UartOtherEnd_samrh71tx
-Connection on bus : bus_1
   |_ Source Function : UartOtherEnd
   |_ Source Port : UartOtherEnd_samrh71rx_TestCompressUncompress_samrh71rx
   |_ Dest Function : TestCompressUncompress
   |_ Dest Port   : TestCompressUncompress_samrh71rx
+Connection on bus : bus_1
+  |_ Source Function : TestCompressUncompress
+  |_ Source Port : TestCompressUncompress_samrh71tx_UartOtherEnd_samrh71tx
+  |_ Dest Function : UartOtherEnd
+  |_ Dest Port   : UartOtherEnd_samrh71tx

@@ -1,0 +1,2 @@
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/BrokerLock/BrokerLock.c:28:6:Broker_acquire_lock	16	static
+/home/taste/work/work/data-compress-git-out/work/build/node_1/partition_1/runtime/SAMX-RTEMS-Runtime/src/BrokerLock/BrokerLock.c:35:6:Broker_release_lock	8	static
