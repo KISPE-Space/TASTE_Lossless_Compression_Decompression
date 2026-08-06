@@ -21,5 +21,5 @@ Enter the directory where you have cloned the TASTE project.
 
 type "taste" to launch the TASTE IDE
 
-
+![interface view of TASTE reusable components](https://github.com/KISPE-Space/TASTE_Lossless_Compression_Decompression/blob/main/screenshots/TASTE%20model_1.png)
 
