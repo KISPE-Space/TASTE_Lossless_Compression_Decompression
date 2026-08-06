@@ -15,5 +15,11 @@ The demonstration of the reusable component depends upon the SAMRH71 runtime pro
 The demonstration of the reusable component runs on the SAMRH71 EK development board and makes use of the FLEXCOM1 UART interface that is accessible via a USB port on the SAMRH71 EK board.
 
 # Installation & building
-Clone this repository into a directory off your home directory on a Linux installation. 
+Clone this repository into a directory off your home directory on a Linux installation, there are no git submodules applied so no recursive checkout necessary.
+
+Enter the directory where you have cloned the TASTE project.
+
+type "taste" to launch the TASTE IDE
+
+
 
