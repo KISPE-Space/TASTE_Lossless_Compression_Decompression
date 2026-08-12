@@ -266,7 +266,7 @@ void testcompressuncompress_PI_samrh71rx(const asn1SccT_UInt8 *iInByte)
 }
 
 
-static void (*pMainByteTransmitterFunction)(const asn1SccT_UInt8*);
+static void (*pMainByteTransmitterFunction)(const asn1SccT_UInt8*) = 0;
 
 void register_uart_byte_transmitter_function(void (*pByteTransmitterFunction)(const asn1SccT_UInt8*))
 {
@@ -280,6 +280,11 @@ void transmit_bytes_over_uart(char* pBytes, unsigned int iNumBytes)
     unsigned long charBuff;
     unsigned int iStringLength = 0UL;
 
+    // If the fucntion pointer is not initialised, handle gracefully
+    if (0 == pMainByteTransmitterFunction)
+    {
+        return;
+    }
     if (0 == iNumBytes)
     {
         iStringLength = strlen(pBytes);
